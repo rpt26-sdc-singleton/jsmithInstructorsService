@@ -25,7 +25,6 @@ app.get('/api/primaryInstructor/:courseNumber', (req, res) => {
 
 //returns the offeredBy for a course
 app.get('/api/offeredBy/:courseNumber', (req, res) => {
-  console.log('req params: ', req.params);
   db.findOfferedBy(parseInt(req.params.courseNumber), (dbResponse) => {
     res.send(dbResponse);
   });

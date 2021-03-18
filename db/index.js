@@ -1,7 +1,10 @@
 const mongoose = require('mongoose');
-const instructorsSchema = require('./instructorsSchema');
-const offeredBysSchema = require('./offeredBysSchema');
-const testimonialsSchema = require('./testimonialsSchema');
+const instructorsSchema = require('./schemas/instructorsSchema');
+const offeredBysSchema = require('./schemas/offeredBysSchema');
+const testimonialsSchema = require('./schemas/testimonialsSchema');
+const Instructors = require('./models/instructorsModel');
+const OfferedBys = require('./models/offeredBysModel');
+const Testimonials = require('./models/testimonialsModel');
 
 
 mongoose.connect('mongodb://localhost/instructors', { useNewUrlParser: true, useUnifiedTopology: true });
@@ -11,9 +14,10 @@ db.once('open', () => {
   console.log('db connection opened');
 });
 
-const Instructors = mongoose.model('instructors', instructorsSchema);
-const OfferedBys = mongoose.model('offeredbys', offeredBysSchema);
-const Testimonials = mongoose.model('testimonials', testimonialsSchema);
+//refactor to use one Model
+// const Instructors = mongoose.model('instructors', instructorsSchema);
+// const OfferedBys = mongoose.model('offeredbys', offeredBysSchema);
+// const Testimonials = mongoose.model('testimonials', testimonialsSchema);
 const imagesPort = 3006;
 
 //returns an array of instructors that belong to a course
@@ -22,6 +26,7 @@ findInstructors = (courseNumber, cb) => {
   Instructors.find(options)
     .then((dbResponse) => {
       cb(dbResponse);
+      mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -36,6 +41,7 @@ findPrimaryInstructor = (courseNumber, cb) => {
   Instructors.findOne(options)
     .then((dbResponse) => {
       cb(dbResponse);
+      mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -51,6 +57,7 @@ findOfferedBy = (courseNumber, cb) => {
   OfferedBys.find(options)
     .then((dbResponse) => {
       cb(dbResponse);
+      mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -73,6 +80,7 @@ findTestimonials = (courseNumber, cb) => {
       let output = [];
       testimonialsIndexes.forEach((index) => output.push(dbResponse[index]));
       cb(output);
+      mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -81,7 +89,4 @@ findTestimonials = (courseNumber, cb) => {
     });
 };
 
-module.exports.findInstructors = findInstructors;
-module.exports.findPrimaryInstructor = findPrimaryInstructor;
-module.exports.findOfferedBy = findOfferedBy;
-module.exports.findTestimonials = findTestimonials;
+module.exports = { findInstructors, findPrimaryInstructor, findOfferedBy, findTestimonials };

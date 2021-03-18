@@ -1,13 +1,18 @@
 # Project Name
 
-> Project description
+> Ingenuity
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/Ingenuity-rpt26/shane-service-about
+  - https://github.com/Ingenuity-rpt26/vinayService1
+  - https://github.com/Ingenuity-rpt26/jsmithSyllabusesService
+  - https://github.com/Ingenuity-rpt26/Grant--Service_1
+  - https://github.com/Ingenuity-rpt26/vinayService2
+  - https://github.com/Ingenuity-rpt26/shane-service-summary
+  - https://github.com/Ingenuity-rpt26/vinayService2
+  - https://github.com/Ingenuity-rpt26/jsmithService1
+  - https://github.com/Ingenuity-rpt26/jsmithInstructorsService
 
 ## Table of Contents
 
@@ -16,17 +21,36 @@
 1. [Development](#development)
 
 ## Usage
+> npm install
 
-> Some usage instructions
+> Generate data with "npm run generate"
+
+> Test generated data with "npm run test"
+
+> Insert data to database with "npm run insert"
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+>Instructors relies on ... services for data
 
-- Node 6.13.0
-- etc
+>OfferedBys relies on ... services for data
+
+>Testimonials relies on ... services for data
+
+<span style="color:red">TODO: Jest returns two errors, but the tests still run properly </span>
 
 ## Development
+
+Each course has a syllabus.  Each syllabus has one or more weeks.  Each week has one or more lessons.  Each lesson has one or more videos, readings, and exercises.
+
+>The component flow goes...
+
+>Syllabus => Weeks =>  Week => Lesson =>
+
+>        Videos => Video
+>        Readings => Reading
+>        Exercises => Exercise
+
 
 ### Installing Dependencies
 

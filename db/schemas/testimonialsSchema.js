@@ -6,3 +6,5 @@ const testimonialsSchema = new Schema({
   name: String,
   testimonialText: String
 });
+
+module.exports = testimonialsSchema;

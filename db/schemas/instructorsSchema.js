@@ -17,3 +17,5 @@ const instructorsSchema = new Schema({
   instructorAverageRating: String,
   numberOfRatings: Number
 });
+
+module.exports = instructorsSchema;
