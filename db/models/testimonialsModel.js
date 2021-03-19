@@ -6,7 +6,7 @@ mongoose.connect('mongodb://127.0.0.1/instructors', { useNewUrlParser: true, use
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'testimonials connection error'));
 db.once('open', () => {
-  console.log('testimonialsInsert connected to db');
+  console.log('testimonialsModel connected to db');
 });
 
 const Testimonials = mongoose.model('testimonials', testimonialsSchema);
