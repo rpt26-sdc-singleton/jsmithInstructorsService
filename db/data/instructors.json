@@ -1,514 +1,50 @@
 [
 	{
 		"id": 1,
-		"firstName": "Ayla",
-		"middleInitial": "B",
-		"lastName": "Marquardt",
-		"academicTitle": "Professor",
-		"title": "Product Tactics Specialist",
-		"organization": "Ohio State University",
-		"learners": 2806,
+		"firstName": "Frank",
+		"middleInitial": "C",
+		"lastName": "Armstrong",
+		"academicTitle": "Instructor",
+		"title": "Global Creative Producer",
+		"organization": "Centenary University",
+		"learners": 426,
 		"courses": [],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 6004
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 816
 	},
 	{
 		"id": 2,
-		"firstName": "Eula",
-		"middleInitial": "A",
-		"lastName": "Schumm",
-		"academicTitle": "Associate Professor",
-		"title": "Investor Communications Associate",
-		"organization": "Jewish Theological Seminary of America",
-		"learners": 1814,
+		"firstName": "Hosea",
+		"middleInitial": "C",
+		"lastName": "Lemke",
+		"academicTitle": "Professor",
+		"title": "Central Division Manager",
+		"organization": "Ohio State University",
+		"learners": 2790,
 		"courses": [],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 3711
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 5965
 	},
 	{
 		"id": 3,
-		"firstName": "Stewart",
+		"firstName": "Murray",
 		"middleInitial": "B",
-		"lastName": "Grimes",
-		"academicTitle": "Professor",
-		"title": "International Operations Architect",
-		"organization": "Saint Mary's College of California",
-		"learners": 3501,
-		"courses": [
-			{
-				"courseNumber": 37,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 54,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 79,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 7719
-	},
-	{
-		"id": 4,
-		"firstName": "Skye",
-		"middleInitial": "C",
-		"lastName": "Bartoletti",
+		"lastName": "Baumbach",
 		"academicTitle": "Instructor",
-		"title": "Lead Group Architect",
-		"organization": "Centenary University",
-		"learners": 524,
+		"title": "Global Implementation Agent",
+		"organization": "Dallas Christian College",
+		"learners": 709,
 		"courses": [
 			{
-				"courseNumber": 20,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 50,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 1009
-	},
-	{
-		"id": 5,
-		"firstName": "Lucie",
-		"middleInitial": "B",
-		"lastName": "Bergnaum",
-		"academicTitle": "Professor",
-		"title": "Dynamic Brand Strategist",
-		"organization": "Toccoa Falls College",
-		"learners": 3689,
-		"courses": [
-			{
-				"courseNumber": 39,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 8197
-	},
-	{
-		"id": 6,
-		"firstName": "Grover",
-		"middleInitial": "C",
-		"lastName": "Schaden",
-		"academicTitle": "PhD",
-		"title": "Forward Paradigm Facilitator",
-		"organization": "Zaytuna College",
-		"learners": 4960,
-		"courses": [
-			{
-				"courseNumber": 97,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 9287
-	},
-	{
-		"id": 7,
-		"firstName": "Frederique",
-		"middleInitial": "C",
-		"lastName": "Cormier",
-		"academicTitle": "Associate Professor",
-		"title": "Forward Research Technician",
-		"organization": "Georgia Institute of Technology-Main Campus",
-		"learners": 1232,
-		"courses": [
-			{
-				"courseNumber": 5,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 68,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.2",
-		"numberOfRatings": 2454
-	},
-	{
-		"id": 8,
-		"firstName": "Marianne",
-		"middleInitial": "C",
-		"lastName": "Johnson",
-		"academicTitle": "PhD",
-		"title": "Future Mobility Developer",
-		"organization": "Youngstown State University",
-		"learners": 4699,
-		"courses": [
-			{
-				"courseNumber": 18,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 47,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 67,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 78,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "3.9",
-		"numberOfRatings": 8682
-	},
-	{
-		"id": 9,
-		"firstName": "Madison",
-		"middleInitial": "B",
-		"lastName": "Gibson",
-		"academicTitle": "PhD",
-		"title": "Global Identity Representative",
-		"organization": "Wright State University",
-		"learners": 4413,
-		"courses": [
-			{
-				"courseNumber": 1,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 7,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.9",
-		"numberOfRatings": 10107
-	},
-	{
-		"id": 10,
-		"firstName": "Jed",
-		"middleInitial": "C",
-		"lastName": "Oberbrunner",
-		"academicTitle": "Associate Professor",
-		"title": "Product Brand Orchestrator",
-		"organization": "Farmingdale State College",
-		"learners": 1004,
-		"courses": [
-			{
-				"courseNumber": 59,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 85,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.2",
-		"numberOfRatings": 1979
-	},
-	{
-		"id": 11,
-		"firstName": "Dixie",
-		"middleInitial": "C",
-		"lastName": "Bogan",
-		"academicTitle": "Professor",
-		"title": "District Program Representative",
-		"organization": "Pacific Islands University",
-		"learners": 2963,
-		"courses": [
-			{
-				"courseNumber": 17,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 62,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 71,
+				"courseNumber": 9,
 				"isPrimaryInstructor": true
 			},
 			{
 				"courseNumber": 73,
 				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 6383
-	},
-	{
-		"id": 12,
-		"firstName": "Vicente",
-		"middleInitial": "C",
-		"lastName": "Cummings",
-		"academicTitle": "Associate Professor",
-		"title": "Dynamic Paradigm Supervisor",
-		"organization": "Georgia Institute of Technology-Main Campus",
-		"learners": 1342,
-		"courses": [
-			{
-				"courseNumber": 19,
-				"isPrimaryInstructor": true
 			},
 			{
-				"courseNumber": 80,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 88,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.3",
-		"numberOfRatings": 2687
-	},
-	{
-		"id": 13,
-		"firstName": "Marco",
-		"middleInitial": "C",
-		"lastName": "Pfeffer",
-		"academicTitle": "Professor",
-		"title": "Lead Mobility Assistant",
-		"organization": "Queens University of Charlotte",
-		"learners": 3237,
-		"courses": [
-			{
-				"courseNumber": 40,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 7057
-	},
-	{
-		"id": 14,
-		"firstName": "Daija",
-		"middleInitial": "A",
-		"lastName": "Runte",
-		"academicTitle": "Instructor",
-		"title": "Global Intranet Liaison",
-		"organization": "Farmingdale State College",
-		"learners": 991,
-		"courses": [
-			{
-				"courseNumber": 90,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.2",
-		"numberOfRatings": 1951
-	},
-	{
-		"id": 15,
-		"firstName": "Jimmy",
-		"middleInitial": "A",
-		"lastName": "Raynor",
-		"academicTitle": "Professor",
-		"title": "Corporate Usability Associate",
-		"organization": "Toccoa Falls College",
-		"learners": 3755,
-		"courses": [
-			{
-				"courseNumber": 25,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 8369
-	},
-	{
-		"id": 16,
-		"firstName": "Roel",
-		"middleInitial": "B",
-		"lastName": "Baumbach",
-		"academicTitle": "Professor",
-		"title": "Human Markets Administrator",
-		"organization": "Queens University of Charlotte",
-		"learners": 3259,
-		"courses": [
-			{
-				"courseNumber": 27,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 38,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 70,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 75,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 7112
-	},
-	{
-		"id": 17,
-		"firstName": "Ernestina",
-		"middleInitial": "A",
-		"lastName": "Schmitt",
-		"academicTitle": "Professor",
-		"title": "Lead Group Manager",
-		"organization": "Keiser University-Ft Lauderdale",
-		"learners": 2103,
-		"courses": [
-			{
-				"courseNumber": 6,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 52,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 4361
-	},
-	{
-		"id": 18,
-		"firstName": "Isac",
-		"middleInitial": "A",
-		"lastName": "Little",
-		"academicTitle": "PhD",
-		"title": "Future Solutions Representative",
-		"organization": "Zaytuna College",
-		"learners": 4851,
-		"courses": [
-			{
-				"courseNumber": 32,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 35,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 46,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 9034
-	},
-	{
-		"id": 19,
-		"firstName": "London",
-		"middleInitial": "A",
-		"lastName": "Heidenreich",
-		"academicTitle": "Instructor",
-		"title": "Central Optimization Representative",
-		"organization": "Dallas Christian College",
-		"learners": 653,
-		"courses": [
-			{
-				"courseNumber": 66,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 99,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 1266
-	},
-	{
-		"id": 20,
-		"firstName": "Kelvin",
-		"middleInitial": "A",
-		"lastName": "Reilly",
-		"academicTitle": "Associate Professor",
-		"title": "Principal Program Supervisor",
-		"organization": "Hofstra University",
-		"learners": 1525,
-		"courses": [
-			{
-				"courseNumber": 8,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 76,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.3",
-		"numberOfRatings": 3079
-	},
-	{
-		"id": 21,
-		"firstName": "Agnes",
-		"middleInitial": "B",
-		"lastName": "Raynor",
-		"academicTitle": "Associate Professor",
-		"title": "District Identity Producer",
-		"organization": "Keiser University-Ft Lauderdale",
-		"learners": 1927,
-		"courses": [
-			{
-				"courseNumber": 51,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 58,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 94,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 96,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 3963
-	},
-	{
-		"id": 22,
-		"firstName": "Lennie",
-		"middleInitial": "B",
-		"lastName": "Boyer",
-		"academicTitle": "Professor",
-		"title": "Customer Creative Director",
-		"organization": "University of Central Arkansas",
-		"learners": 3984,
-		"courses": [
-			{
-				"courseNumber": 29,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 92,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 8965
-	},
-	{
-		"id": 23,
-		"firstName": "Kiel",
-		"middleInitial": "B",
-		"lastName": "Jast",
-		"academicTitle": "Professor",
-		"title": "Central Implementation Developer",
-		"organization": "Northwestern State University of Louisiana",
-		"learners": 2559,
-		"courses": [
-			{
-				"courseNumber": 11,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 82,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 86,
+				"courseNumber": 77,
 				"isPrimaryInstructor": true
 			},
 			{
@@ -516,69 +52,64 @@
 				"isPrimaryInstructor": true
 			}
 		],
-		"instructorAverageRating": "4.5",
-		"numberOfRatings": 5416
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 1377
 	},
 	{
-		"id": 24,
-		"firstName": "Caleigh",
+		"id": 4,
+		"firstName": "Kellen",
 		"middleInitial": "A",
-		"lastName": "Shields",
-		"academicTitle": "Instructor",
-		"title": "National Creative Assistant",
-		"organization": "Dallas Christian College",
-		"learners": 729,
-		"courses": [
-			{
-				"courseNumber": 14,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 34,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 41,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 1419
+		"lastName": "Kessler",
+		"academicTitle": "PhD",
+		"title": "Senior Quality Executive",
+		"organization": "Wright State University",
+		"learners": 4359,
+		"courses": [],
+		"instructorAverageRating": "4.9",
+		"numberOfRatings": 9960
 	},
 	{
-		"id": 25,
-		"firstName": "Elizabeth",
+		"id": 5,
+		"firstName": "Wilhelmine",
 		"middleInitial": "B",
-		"lastName": "Sanford",
-		"academicTitle": "Instructor",
-		"title": "Senior Interactions Facilitator",
-		"organization": "Centenary University",
-		"learners": 427,
-		"courses": [
-			{
-				"courseNumber": 16,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 84,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 819
-	},
-	{
-		"id": 26,
-		"firstName": "Arlie",
-		"middleInitial": "B",
-		"lastName": "Casper",
+		"lastName": "Walter",
 		"academicTitle": "Professor",
-		"title": "District Response Manager",
-		"organization": "Vincennes University",
-		"learners": 4070,
+		"title": "District Implementation Technician",
+		"organization": "Toccoa Falls College",
+		"learners": 3790,
 		"courses": [
 			{
-				"courseNumber": 60,
+				"courseNumber": 13,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 28,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 29,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 54,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 8457
+	},
+	{
+		"id": 6,
+		"firstName": "Unique",
+		"middleInitial": "A",
+		"lastName": "Kunze",
+		"academicTitle": "Instructor",
+		"title": "Forward Group Director",
+		"organization": "Alfred University",
+		"learners": 108,
+		"courses": [
+			{
+				"courseNumber": 15,
 				"isPrimaryInstructor": true
 			},
 			{
@@ -586,43 +117,156 @@
 				"isPrimaryInstructor": true
 			}
 		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 9191
+		"instructorAverageRating": "4.0",
+		"numberOfRatings": 204
 	},
 	{
-		"id": 27,
-		"firstName": "Christine",
+		"id": 7,
+		"firstName": "Viola",
 		"middleInitial": "C",
-		"lastName": "Walker",
+		"lastName": "Kris",
 		"academicTitle": "Professor",
-		"title": "Internal Factors Supervisor",
-		"organization": "Northwestern State University of Louisiana",
-		"learners": 2615,
+		"title": "Dynamic Optimization Developer",
+		"organization": "Vincennes University",
+		"learners": 4206,
 		"courses": [
 			{
-				"courseNumber": 69,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.5",
-		"numberOfRatings": 5547
-	},
-	{
-		"id": 28,
-		"firstName": "Modesta",
-		"middleInitial": "B",
-		"lastName": "Bauch",
-		"academicTitle": "Associate Professor",
-		"title": "Future Implementation Liaison",
-		"organization": "Jewish Theological Seminary of America",
-		"learners": 1881,
-		"courses": [
-			{
-				"courseNumber": 61,
+				"courseNumber": 34,
 				"isPrimaryInstructor": true
 			},
 			{
-				"courseNumber": 81,
+				"courseNumber": 47,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 84,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 9550
+	},
+	{
+		"id": 8,
+		"firstName": "Jeramy",
+		"middleInitial": "A",
+		"lastName": "Gorczany",
+		"academicTitle": "Associate Professor",
+		"title": "Principal Research Coordinator",
+		"organization": "Farmingdale State College",
+		"learners": 1024,
+		"courses": [
+			{
+				"courseNumber": 5,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 79,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 87,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 94,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.2",
+		"numberOfRatings": 2021
+	},
+	{
+		"id": 9,
+		"firstName": "Rebekah",
+		"middleInitial": "B",
+		"lastName": "Ondricka",
+		"academicTitle": "PhD",
+		"title": "Regional Assurance Strategist",
+		"organization": "Zaytuna College",
+		"learners": 4978,
+		"courses": [
+			{
+				"courseNumber": 83,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 96,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.0",
+		"numberOfRatings": 9329
+	},
+	{
+		"id": 10,
+		"firstName": "Carrie",
+		"middleInitial": "A",
+		"lastName": "Hermann",
+		"academicTitle": "Professor",
+		"title": "Global Usability Agent",
+		"organization": "Radford University",
+		"learners": 3298,
+		"courses": [
+			{
+				"courseNumber": 42,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.7",
+		"numberOfRatings": 7209
+	},
+	{
+		"id": 11,
+		"firstName": "Modesto",
+		"middleInitial": "C",
+		"lastName": "Senger",
+		"academicTitle": "Professor",
+		"title": "Internal Factors Assistant",
+		"organization": "Queens University of Charlotte",
+		"learners": 3136,
+		"courses": [
+			{
+				"courseNumber": 2,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 16,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 58,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6805
+	},
+	{
+		"id": 12,
+		"firstName": "Branson",
+		"middleInitial": "B",
+		"lastName": "Schroeder",
+		"academicTitle": "Instructor",
+		"title": "International Data Designer",
+		"organization": "Centenary University",
+		"learners": 390,
+		"courses": [],
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 747
+	},
+	{
+		"id": 13,
+		"firstName": "Napoleon",
+		"middleInitial": "B",
+		"lastName": "Leffler",
+		"academicTitle": "Professor",
+		"title": "International Markets Analyst",
+		"organization": "Ohio State University",
+		"learners": 2881,
+		"courses": [
+			{
+				"courseNumber": 17,
 				"isPrimaryInstructor": true
 			},
 			{
@@ -630,241 +274,25 @@
 				"isPrimaryInstructor": true
 			}
 		],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 3862
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6184
 	},
 	{
-		"id": 29,
-		"firstName": "Triston",
-		"middleInitial": "C",
-		"lastName": "Veum",
+		"id": 14,
+		"firstName": "Domingo",
+		"middleInitial": "A",
+		"lastName": "Reinger",
 		"academicTitle": "Professor",
-		"title": "Principal Optimization Representative",
-		"organization": "Marian University",
-		"learners": 2330,
-		"courses": [
-			{
-				"courseNumber": 23,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 64,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 65,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 91,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.5",
-		"numberOfRatings": 4881
-	},
-	{
-		"id": 30,
-		"firstName": "Logan",
-		"middleInitial": "A",
-		"lastName": "Mitchell",
-		"academicTitle": "Instructor",
-		"title": "Future Identity Associate",
-		"organization": "Centenary University",
-		"learners": 436,
-		"courses": [
-			{
-				"courseNumber": 13,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 21,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 31,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 49,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 837
-	},
-	{
-		"id": 31,
-		"firstName": "Jake",
-		"middleInitial": "A",
-		"lastName": "Erdman",
-		"academicTitle": "Professor",
-		"title": "District Brand Facilitator",
-		"organization": "Lewis University",
-		"learners": 2131,
-		"courses": [
-			{
-				"courseNumber": 42,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 83,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 4423
-	},
-	{
-		"id": 32,
-		"firstName": "Quincy",
-		"middleInitial": "C",
-		"lastName": "Prosacco",
-		"academicTitle": "PhD",
-		"title": "Product Factors Engineer",
-		"organization": "Youngstown State University",
-		"learners": 4800,
-		"courses": [
-			{
-				"courseNumber": 10,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 26,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 33,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 43,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 8916
-	},
-	{
-		"id": 33,
-		"firstName": "Audrey",
-		"middleInitial": "A",
-		"lastName": "Stark",
-		"academicTitle": "Instructor",
-		"title": "International Mobility Officer",
-		"organization": "Dallas Christian College",
-		"learners": 659,
-		"courses": [
-			{
-				"courseNumber": 30,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 95,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 1277
-	},
-	{
-		"id": 34,
-		"firstName": "Greyson",
-		"middleInitial": "A",
-		"lastName": "Aufderhar",
-		"academicTitle": "Instructor",
-		"title": "Legacy Applications Planner",
-		"organization": "Centenary University",
-		"learners": 511,
-		"courses": [
-			{
-				"courseNumber": 2,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 3,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 53,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 55,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 984
-	},
-	{
-		"id": 35,
-		"firstName": "Alyce",
-		"middleInitial": "A",
-		"lastName": "Leannon",
-		"academicTitle": "Professor",
-		"title": "National Metrics Designer",
-		"organization": "Radford University",
-		"learners": 3296,
-		"courses": [
-			{
-				"courseNumber": 45,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 57,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 72,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 7202
-	},
-	{
-		"id": 36,
-		"firstName": "Reagan",
-		"middleInitial": "A",
-		"lastName": "Welch",
-		"academicTitle": "Instructor",
-		"title": "Regional Accounts Orchestrator",
-		"organization": "Centenary University",
-		"learners": 402,
-		"courses": [
-			{
-				"courseNumber": 15,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 22,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 24,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 36,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 770
-	},
-	{
-		"id": 37,
-		"firstName": "Ilene",
-		"middleInitial": "A",
-		"lastName": "Runolfsson",
-		"academicTitle": "Instructor",
-		"title": "Customer Optimization Assistant",
-		"organization": "Dallas Christian College",
-		"learners": 671,
+		"title": "Dynamic Applications Producer",
+		"organization": "Queens University of Charlotte",
+		"learners": 3219,
 		"courses": [
 			{
 				"courseNumber": 4,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 80,
 				"isPrimaryInstructor": true
 			},
 			{
@@ -872,73 +300,980 @@
 				"isPrimaryInstructor": true
 			}
 		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 1302
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 7012
 	},
 	{
-		"id": 38,
-		"firstName": "Micaela",
+		"id": 15,
+		"firstName": "Chanel",
 		"middleInitial": "A",
-		"lastName": "Thiel",
+		"lastName": "Bernhard",
 		"academicTitle": "Instructor",
-		"title": "Central Intranet Architect",
-		"organization": "East Carolina University",
-		"learners": 924,
+		"title": "Regional Functionality Supervisor",
+		"organization": "Dallas Christian College",
+		"learners": 711,
 		"courses": [
 			{
-				"courseNumber": 63,
+				"courseNumber": 22,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 40,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 44,
 				"isPrimaryInstructor": true
 			}
 		],
-		"instructorAverageRating": "4.2",
-		"numberOfRatings": 1814
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 1383
 	},
 	{
-		"id": 39,
-		"firstName": "Ozella",
+		"id": 16,
+		"firstName": "Jarod",
 		"middleInitial": "B",
-		"lastName": "Bashirian",
-		"academicTitle": "Professor",
-		"title": "Direct Research Administrator",
-		"organization": "Radford University",
-		"learners": 3451,
+		"lastName": "Jacobi",
+		"academicTitle": "PhD",
+		"title": "International Usability Developer",
+		"organization": "Youngstown State University",
+		"learners": 4694,
 		"courses": [
 			{
-				"courseNumber": 9,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 77,
-				"isPrimaryInstructor": true
-			}
-		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 7593
-	},
-	{
-		"id": 40,
-		"firstName": "Sheila",
-		"middleInitial": "A",
-		"lastName": "Gibson",
-		"academicTitle": "Professor",
-		"title": "Chief Interactions Director",
-		"organization": "Marian University",
-		"learners": 2381,
-		"courses": [
-			{
-				"courseNumber": 48,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 56,
+				"courseNumber": 39,
 				"isPrimaryInstructor": true
 			},
 			{
 				"courseNumber": 74,
 				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "3.9",
+		"numberOfRatings": 8671
+	},
+	{
+		"id": 17,
+		"firstName": "Deon",
+		"middleInitial": "C",
+		"lastName": "Rippin",
+		"academicTitle": "Associate Professor",
+		"title": "Lead Configuration Administrator",
+		"organization": "Indiana Institute of Technology",
+		"learners": 1680,
+		"courses": [
+			{
+				"courseNumber": 18,
+				"isPrimaryInstructor": true
 			},
 			{
+				"courseNumber": 60,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 68,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 3417
+	},
+	{
+		"id": 18,
+		"firstName": "Arvel",
+		"middleInitial": "A",
+		"lastName": "Hoppe",
+		"academicTitle": "Professor",
+		"title": "Human Quality Orchestrator",
+		"organization": "Keiser University-Ft Lauderdale",
+		"learners": 2075,
+		"courses": [
+			{
+				"courseNumber": 27,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 55,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 64,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 88,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 4298
+	},
+	{
+		"id": 19,
+		"firstName": "Emmanuel",
+		"middleInitial": "A",
+		"lastName": "Connelly",
+		"academicTitle": "Professor",
+		"title": "Central Applications Technician",
+		"organization": "Ohio State University",
+		"learners": 2816,
+		"courses": [
+			{
+				"courseNumber": 6,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 26,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 51,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 92,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6028
+	},
+	{
+		"id": 20,
+		"firstName": "Patsy",
+		"middleInitial": "A",
+		"lastName": "Dooley",
+		"academicTitle": "Professor",
+		"title": "Internal Infrastructure Developer",
+		"organization": "University of Central Arkansas",
+		"learners": 3905,
+		"courses": [
+			{
+				"courseNumber": 30,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 78,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 97,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 8757
+	},
+	{
+		"id": 21,
+		"firstName": "Leland",
+		"middleInitial": "C",
+		"lastName": "Kunze",
+		"academicTitle": "Professor",
+		"title": "Forward Integration Coordinator",
+		"organization": "University of Central Arkansas",
+		"learners": 3910,
+		"courses": [
+			{
+				"courseNumber": 90,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 99,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 8770
+	},
+	{
+		"id": 22,
+		"firstName": "Junior",
+		"middleInitial": "C",
+		"lastName": "Anderson",
+		"academicTitle": "PhD",
+		"title": "International Paradigm Representative",
+		"organization": "Youngstown State University",
+		"learners": 4777,
+		"courses": [
+			{
+				"courseNumber": 56,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 63,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.0",
+		"numberOfRatings": 8863
+	},
+	{
+		"id": 23,
+		"firstName": "Wilton",
+		"middleInitial": "B",
+		"lastName": "O'Connell",
+		"academicTitle": "Instructor",
+		"title": "Investor Infrastructure Coordinator",
+		"organization": "Farmingdale State College",
+		"learners": 964,
+		"courses": [
+			{
+				"courseNumber": 12,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 50,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.2",
+		"numberOfRatings": 1896
+	},
+	{
+		"id": 24,
+		"firstName": "Annie",
+		"middleInitial": "B",
+		"lastName": "Ziemann",
+		"academicTitle": "Associate Professor",
+		"title": "Direct Integration Developer",
+		"organization": "Indiana Institute of Technology",
+		"learners": 1682,
+		"courses": [
+			{
+				"courseNumber": 25,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 36,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 61,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 3422
+	},
+	{
+		"id": 25,
+		"firstName": "Carlotta",
+		"middleInitial": "A",
+		"lastName": "Bins",
+		"academicTitle": "PhD",
+		"title": "Legacy Group Coordinator",
+		"organization": "Wright State University",
+		"learners": 4404,
+		"courses": [
+			{
+				"courseNumber": 45,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 53,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 75,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 81,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.9",
+		"numberOfRatings": 10083
+	},
+	{
+		"id": 26,
+		"firstName": "Manuel",
+		"middleInitial": "B",
+		"lastName": "Sawayn",
+		"academicTitle": "Instructor",
+		"title": "Product Creative Director",
+		"organization": "Dallas Christian College",
+		"learners": 739,
+		"courses": [
+			{
+				"courseNumber": 3,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 46,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 1438
+	},
+	{
+		"id": 27,
+		"firstName": "Estel",
+		"middleInitial": "A",
+		"lastName": "Schuppe",
+		"academicTitle": "Professor",
+		"title": "Product Identity Administrator",
+		"organization": "Toccoa Falls College",
+		"learners": 3777,
+		"courses": [
+			{
+				"courseNumber": 49,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 69,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 91,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 8425
+	},
+	{
+		"id": 28,
+		"firstName": "Vidal",
+		"middleInitial": "C",
+		"lastName": "Bernier",
+		"academicTitle": "Associate Professor",
+		"title": "Regional Solutions Architect",
+		"organization": "Georgia Institute of Technology-Main Campus",
+		"learners": 1259,
+		"courses": [
+			{
+				"courseNumber": 24,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 43,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 2511
+	},
+	{
+		"id": 29,
+		"firstName": "Alisa",
+		"middleInitial": "A",
+		"lastName": "Kovacek",
+		"academicTitle": "Professor",
+		"title": "Central Program Director",
+		"organization": "Saint Mary's College of California",
+		"learners": 3617,
+		"courses": [
+			{
+				"courseNumber": 10,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 21,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 85,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.7",
+		"numberOfRatings": 8014
+	},
+	{
+		"id": 30,
+		"firstName": "Holden",
+		"middleInitial": "B",
+		"lastName": "Feest",
+		"academicTitle": "Professor",
+		"title": "Direct Usability Designer",
+		"organization": "Pacific Islands University",
+		"learners": 2961,
+		"courses": [
+			{
+				"courseNumber": 31,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 35,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 37,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 38,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6377
+	},
+	{
+		"id": 31,
+		"firstName": "Leonor",
+		"middleInitial": "C",
+		"lastName": "Walker",
+		"academicTitle": "Professor",
+		"title": "Principal Mobility Analyst",
+		"organization": "Lewis University",
+		"learners": 2155,
+		"courses": [
+			{
+				"courseNumber": 7,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 62,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 86,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 4479
+	},
+	{
+		"id": 32,
+		"firstName": "Presley",
+		"middleInitial": "B",
+		"lastName": "Prohaska",
+		"academicTitle": "Instructor",
+		"title": "Direct Security Designer",
+		"organization": "Baylor University",
+		"learners": 203,
+		"courses": [
+			{
+				"courseNumber": 11,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.0",
+		"numberOfRatings": 384
+	},
+	{
+		"id": 33,
+		"firstName": "Katelynn",
+		"middleInitial": "C",
+		"lastName": "Rice",
+		"academicTitle": "Associate Professor",
+		"title": "National Accountability Director",
+		"organization": "Hofstra University",
+		"learners": 1467,
+		"courses": [
+			{
+				"courseNumber": 14,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 33,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 66,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 70,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 2954
+	},
+	{
+		"id": 34,
+		"firstName": "Emmett",
+		"middleInitial": "B",
+		"lastName": "Schinner",
+		"academicTitle": "Professor",
+		"title": "Central Group Specialist",
+		"organization": "University of Central Arkansas",
+		"learners": 4034,
+		"courses": [
+			{
+				"courseNumber": 32,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 72,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 9096
+	},
+	{
+		"id": 35,
+		"firstName": "Junior",
+		"middleInitial": "B",
+		"lastName": "Smitham",
+		"academicTitle": "Professor",
+		"title": "Chief Brand Designer",
+		"organization": "University of Central Arkansas",
+		"learners": 3886,
+		"courses": [
+			{
 				"courseNumber": 1,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 23,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 95,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 8706
+	},
+	{
+		"id": 36,
+		"firstName": "Seth",
+		"middleInitial": "B",
+		"lastName": "Jones",
+		"academicTitle": "Professor",
+		"title": "Corporate Group Manager",
+		"organization": "Northwestern State University of Louisiana",
+		"learners": 2503,
+		"courses": [],
+		"instructorAverageRating": "4.5",
+		"numberOfRatings": 5285
+	},
+	{
+		"id": 37,
+		"firstName": "Shaun",
+		"middleInitial": "A",
+		"lastName": "Stoltenberg",
+		"academicTitle": "Professor",
+		"title": "Corporate Marketing Liaison",
+		"organization": "Saint Mary's College of California",
+		"learners": 3614,
+		"courses": [
+			{
+				"courseNumber": 19,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 59,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 71,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 76,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.7",
+		"numberOfRatings": 8005
+	},
+	{
+		"id": 38,
+		"firstName": "Trace",
+		"middleInitial": "B",
+		"lastName": "Stamm",
+		"academicTitle": "Professor",
+		"title": "Dynamic Accounts Manager",
+		"organization": "Queens University of Charlotte",
+		"learners": 3172,
+		"courses": [
+			{
+				"courseNumber": 67,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6896
+	},
+	{
+		"id": 39,
+		"firstName": "Alyson",
+		"middleInitial": "B",
+		"lastName": "Douglas",
+		"academicTitle": "Professor",
+		"title": "Chief Tactics Orchestrator",
+		"organization": "Pacific Islands University",
+		"learners": 2927,
+		"courses": [
+			{
+				"courseNumber": 41,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 52,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 65,
+				"isPrimaryInstructor": true
+			}
+		],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6295
+	},
+	{
+		"id": 40,
+		"firstName": "Evangeline",
+		"middleInitial": "A",
+		"lastName": "Littel",
+		"academicTitle": "Professor",
+		"title": "Product Markets Consultant",
+		"organization": "Northwestern State University of Louisiana",
+		"learners": 2616,
+		"courses": [
+			{
+				"courseNumber": 18,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 64,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.5",
+		"numberOfRatings": 5550
+	},
+	{
+		"id": 41,
+		"firstName": "Eldon",
+		"middleInitial": "A",
+		"lastName": "Heidenreich",
+		"academicTitle": "Associate Professor",
+		"title": "Regional Division Administrator",
+		"organization": "Georgia Institute of Technology-Main Campus",
+		"learners": 1315,
+		"courses": [
+			{
+				"courseNumber": 20,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 48,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 82,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 40,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 2630
+	},
+	{
+		"id": 42,
+		"firstName": "Tyree",
+		"middleInitial": "A",
+		"lastName": "Dach",
+		"academicTitle": "Instructor",
+		"title": "Direct Interactions Technician",
+		"organization": "Dallas Christian College",
+		"learners": 598,
+		"courses": [
+			{
+				"courseNumber": 8,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 57,
+				"isPrimaryInstructor": true
+			},
+			{
+				"courseNumber": 10,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 34,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 1156
+	},
+	{
+		"id": 43,
+		"firstName": "Christine",
+		"middleInitial": "A",
+		"lastName": "Pfannerstill",
+		"academicTitle": "PhD",
+		"title": "Direct Usability Executive",
+		"organization": "Zaytuna College",
+		"learners": 4998,
+		"courses": [
+			{
+				"courseNumber": 74,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.0",
+		"numberOfRatings": 9377
+	},
+	{
+		"id": 44,
+		"firstName": "Monroe",
+		"middleInitial": "A",
+		"lastName": "Hilpert",
+		"academicTitle": "Instructor",
+		"title": "Regional Intranet Engineer",
+		"organization": "Centenary University",
+		"learners": 540,
+		"courses": [
+			{
+				"courseNumber": 13,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 48,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 73,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 74,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 1042
+	},
+	{
+		"id": 45,
+		"firstName": "Ike",
+		"middleInitial": "B",
+		"lastName": "Boyer",
+		"academicTitle": "Professor",
+		"title": "Internal Research Assistant",
+		"organization": "Lewis University",
+		"learners": 2230,
+		"courses": [],
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 4651
+	},
+	{
+		"id": 46,
+		"firstName": "Ellis",
+		"middleInitial": "A",
+		"lastName": "Gutmann",
+		"academicTitle": "Professor",
+		"title": "Direct Brand Assistant",
+		"organization": "Marian University",
+		"learners": 2371,
+		"courses": [
+			{
+				"courseNumber": 18,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 22,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.5",
+		"numberOfRatings": 4976
+	},
+	{
+		"id": 47,
+		"firstName": "Jaquelin",
+		"middleInitial": "C",
+		"lastName": "Gutmann",
+		"academicTitle": "PhD",
+		"title": "Global Optimization Coordinator",
+		"organization": "Youngstown State University",
+		"learners": 4732,
+		"courses": [
+			{
+				"courseNumber": 17,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 73,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "3.9",
+		"numberOfRatings": 8758
+	},
+	{
+		"id": 48,
+		"firstName": "Aileen",
+		"middleInitial": "C",
+		"lastName": "Keebler",
+		"academicTitle": "Instructor",
+		"title": "Product Data Specialist",
+		"organization": "Dallas Christian College",
+		"learners": 683,
+		"courses": [
+			{
+				"courseNumber": 51,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 64,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 79,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 90,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 1325
+	},
+	{
+		"id": 49,
+		"firstName": "Pinkie",
+		"middleInitial": "B",
+		"lastName": "Reichel",
+		"academicTitle": "Associate Professor",
+		"title": "Senior Solutions Executive",
+		"organization": "Indiana Institute of Technology",
+		"learners": 1709,
+		"courses": [
+			{
+				"courseNumber": 30,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 46,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 58,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 77,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 3480
+	},
+	{
+		"id": 50,
+		"firstName": "Mireille",
+		"middleInitial": "C",
+		"lastName": "Spencer",
+		"academicTitle": "Professor",
+		"title": "Human Research Manager",
+		"organization": "University of Central Arkansas",
+		"learners": 3950,
+		"courses": [
+			{
+				"courseNumber": 15,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 17,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 8875
+	},
+	{
+		"id": 51,
+		"firstName": "Ricky",
+		"middleInitial": "C",
+		"lastName": "Bogisich",
+		"academicTitle": "PhD",
+		"title": "Internal Web Liaison",
+		"organization": "Xavier University",
+		"learners": 4433,
+		"courses": [
+			{
+				"courseNumber": 25,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 30,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.9",
+		"numberOfRatings": 10160
+	},
+	{
+		"id": 52,
+		"firstName": "Devante",
+		"middleInitial": "A",
+		"lastName": "Batz",
+		"academicTitle": "Professor",
+		"title": "District Security Specialist",
+		"organization": "Toccoa Falls College",
+		"learners": 3665,
+		"courses": [
+			{
+				"courseNumber": 26,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 28,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 44,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 57,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 70,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 75,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.7",
+		"numberOfRatings": 8136
+	},
+	{
+		"id": 53,
+		"firstName": "Elias",
+		"middleInitial": "C",
+		"lastName": "Bechtelar",
+		"academicTitle": "PhD",
+		"title": "Human Research Liaison",
+		"organization": "Youngstown State University",
+		"learners": 4783,
+		"courses": [],
+		"instructorAverageRating": "4.0",
+		"numberOfRatings": 8877
+	},
+	{
+		"id": 54,
+		"firstName": "Marilie",
+		"middleInitial": "C",
+		"lastName": "Sipes",
+		"academicTitle": "Professor",
+		"title": "Chief Operations Technician",
+		"organization": "Queens University of Charlotte",
+		"learners": 3096,
+		"courses": [
+			{
+				"courseNumber": 14,
 				"isPrimaryInstructor": false
 			},
 			{
@@ -946,33 +1281,397 @@
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 61,
+				"courseNumber": 75,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 99,
 				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "4.5",
-		"numberOfRatings": 5000
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6707
 	},
 	{
-		"id": 41,
-		"firstName": "Vergie",
+		"id": 55,
+		"firstName": "Wilmer",
 		"middleInitial": "C",
-		"lastName": "Mann",
-		"academicTitle": "Professor",
-		"title": "Dynamic Web Planner",
-		"organization": "Toccoa Falls College",
-		"learners": 3796,
+		"lastName": "Waelchi",
+		"academicTitle": "Instructor",
+		"title": "Dynamic Security Architect",
+		"organization": "Centenary University",
+		"learners": 494,
 		"courses": [
 			{
-				"courseNumber": 44,
-				"isPrimaryInstructor": true
+				"courseNumber": 47,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 81,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 85,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 950
+	},
+	{
+		"id": 56,
+		"firstName": "Chelsie",
+		"middleInitial": "C",
+		"lastName": "Bergnaum",
+		"academicTitle": "Instructor",
+		"title": "Dynamic Factors Specialist",
+		"organization": "East Carolina University",
+		"learners": 800,
+		"courses": [
+			{
+				"courseNumber": 57,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 100,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.2",
+		"numberOfRatings": 1561
+	},
+	{
+		"id": 57,
+		"firstName": "Althea",
+		"middleInitial": "A",
+		"lastName": "Cormier",
+		"academicTitle": "Associate Professor",
+		"title": "Legacy Paradigm Technician",
+		"organization": "Indiana Institute of Technology",
+		"learners": 1606,
+		"courses": [
+			{
+				"courseNumber": 42,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 57,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 98,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 99,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 3255
+	},
+	{
+		"id": 58,
+		"firstName": "Clifton",
+		"middleInitial": "C",
+		"lastName": "Wisozk",
+		"academicTitle": "Associate Professor",
+		"title": "Regional Communications Administrator",
+		"organization": "Jewish Theological Seminary of America",
+		"learners": 1838,
+		"courses": [
+			{
+				"courseNumber": 32,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 42,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 74,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 3765
+	},
+	{
+		"id": 59,
+		"firstName": "Vincenzo",
+		"middleInitial": "B",
+		"lastName": "Heathcote",
+		"academicTitle": "Instructor",
+		"title": "Dynamic Implementation Designer",
+		"organization": "Dallas Christian College",
+		"learners": 667,
+		"courses": [
+			{
+				"courseNumber": 28,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 81,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 1293
+	},
+	{
+		"id": 60,
+		"firstName": "Rhett",
+		"middleInitial": "A",
+		"lastName": "Rohan",
+		"academicTitle": "Professor",
+		"title": "Direct Interactions Designer",
+		"organization": "Queens University of Charlotte",
+		"learners": 3182,
+		"courses": [],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6920
+	},
+	{
+		"id": 61,
+		"firstName": "Kallie",
+		"middleInitial": "C",
+		"lastName": "Legros",
+		"academicTitle": "Professor",
+		"title": "Principal Security Administrator",
+		"organization": "Vincennes University",
+		"learners": 4122,
+		"courses": [
+			{
+				"courseNumber": 56,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 9328
+	},
+	{
+		"id": 62,
+		"firstName": "Chet",
+		"middleInitial": "A",
+		"lastName": "Russel",
+		"academicTitle": "PhD",
+		"title": "National Functionality Engineer",
+		"organization": "Wright State University",
+		"learners": 4366,
+		"courses": [
+			{
+				"courseNumber": 8,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.9",
+		"numberOfRatings": 9978
+	},
+	{
+		"id": 63,
+		"firstName": "Laurence",
+		"middleInitial": "C",
+		"lastName": "Heidenreich",
+		"academicTitle": "Professor",
+		"title": "Product Mobility Producer",
+		"organization": "Ohio State University",
+		"learners": 2838,
+		"courses": [],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6081
+	},
+	{
+		"id": 64,
+		"firstName": "Novella",
+		"middleInitial": "C",
+		"lastName": "Mertz",
+		"academicTitle": "Professor",
+		"title": "Central Identity Assistant",
+		"organization": "Toccoa Falls College",
+		"learners": 3814,
+		"courses": [
+			{
+				"courseNumber": 6,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 23,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 37,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 8521
+	},
+	{
+		"id": 65,
+		"firstName": "Golden",
+		"middleInitial": "A",
+		"lastName": "Gaylord",
+		"academicTitle": "Associate Professor",
+		"title": "National Data Associate",
+		"organization": "Indiana Institute of Technology",
+		"learners": 1653,
+		"courses": [
+			{
+				"courseNumber": 77,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 3357
+	},
+	{
+		"id": 66,
+		"firstName": "Russell",
+		"middleInitial": "A",
+		"lastName": "Purdy",
+		"academicTitle": "Professor",
+		"title": "International Response Architect",
+		"organization": "Keiser University-Ft Lauderdale",
+		"learners": 2018,
+		"courses": [
+			{
+				"courseNumber": 18,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 52,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 78,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 89,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 100,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 4167
+	},
+	{
+		"id": 67,
+		"firstName": "Freddy",
+		"middleInitial": "A",
+		"lastName": "Morissette",
+		"academicTitle": "Professor",
+		"title": "Global Intranet Specialist",
+		"organization": "Vincennes University",
+		"learners": 4076,
+		"courses": [
+			{
+				"courseNumber": 12,
+				"isPrimaryInstructor": false
 			},
 			{
 				"courseNumber": 24,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 36,
+				"courseNumber": 44,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 97,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 9207
+	},
+	{
+		"id": 68,
+		"firstName": "Lorenz",
+		"middleInitial": "A",
+		"lastName": "Anderson",
+		"academicTitle": "Instructor",
+		"title": "National Branding Engineer",
+		"organization": "East Carolina University",
+		"learners": 871,
+		"courses": [
+			{
+				"courseNumber": 2,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 24,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 35,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 48,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.2",
+		"numberOfRatings": 1705
+	},
+	{
+		"id": 69,
+		"firstName": "Mireille",
+		"middleInitial": "B",
+		"lastName": "Walsh",
+		"academicTitle": "Professor",
+		"title": "Global Research Associate",
+		"organization": "Keiser University-Ft Lauderdale",
+		"learners": 2111,
+		"courses": [
+			{
+				"courseNumber": 14,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 17,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 24,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 78,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 95,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 4380
+	},
+	{
+		"id": 70,
+		"firstName": "Jerod",
+		"middleInitial": "A",
+		"lastName": "Champlin",
+		"academicTitle": "Professor",
+		"title": "District Security Supervisor",
+		"organization": "Keiser University-Ft Lauderdale",
+		"learners": 2065,
+		"courses": [
+			{
+				"courseNumber": 2,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 73,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 87,
 				"isPrimaryInstructor": false
 			},
 			{
@@ -980,73 +1679,75 @@
 				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 8474
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 4275
 	},
 	{
-		"id": 42,
-		"firstName": "Margaret",
-		"middleInitial": "A",
-		"lastName": "Larkin",
-		"academicTitle": "Associate Professor",
-		"title": "Regional Creative Consultant",
-		"organization": "Indiana Institute of Technology",
-		"learners": 1578,
-		"courses": [
-			{
-				"courseNumber": 12,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 28,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 87,
-				"isPrimaryInstructor": true
-			},
-			{
-				"courseNumber": 51,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 59,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.3",
-		"numberOfRatings": 3195
-	},
-	{
-		"id": 43,
-		"firstName": "Donato",
-		"middleInitial": "B",
-		"lastName": "Cummerata",
+		"id": 71,
+		"firstName": "Christelle",
+		"middleInitial": "C",
+		"lastName": "Veum",
 		"academicTitle": "Professor",
-		"title": "Customer Markets Executive",
-		"organization": "Radford University",
-		"learners": 3445,
+		"title": "Senior Web Director",
+		"organization": "Keiser University-Ft Lauderdale",
+		"learners": 2024,
 		"courses": [
 			{
-				"courseNumber": 20,
+				"courseNumber": 25,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 31,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 50,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 62,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 76,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 90,
 				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 7576
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 4182
 	},
 	{
-		"id": 44,
-		"firstName": "Shany",
+		"id": 72,
+		"firstName": "Kristina",
 		"middleInitial": "B",
-		"lastName": "Casper",
-		"academicTitle": "PhD",
-		"title": "Customer Operations Coordinator",
-		"organization": "Zaytuna College",
-		"learners": 4906,
+		"lastName": "Medhurst",
+		"academicTitle": "Associate Professor",
+		"title": "Forward Group Officer",
+		"organization": "Jewish Theological Seminary of America",
+		"learners": 1855,
 		"courses": [
 			{
-				"courseNumber": 47,
+				"courseNumber": 2,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 13,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 32,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 35,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 44,
 				"isPrimaryInstructor": false
 			},
 			{
@@ -1054,759 +1755,82 @@
 				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 9162
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 3802
 	},
 	{
-		"id": 45,
-		"firstName": "Jaden",
-		"middleInitial": "B",
-		"lastName": "Jacobson",
-		"academicTitle": "Associate Professor",
-		"title": "Product Factors Coordinator",
-		"organization": "Georgia Institute of Technology-Main Campus",
-		"learners": 1340,
-		"courses": [
-			{
-				"courseNumber": 21,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 22,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 39,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 44,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 47,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 71,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.3",
-		"numberOfRatings": 2682
-	},
-	{
-		"id": 46,
-		"firstName": "Madalyn",
+		"id": 73,
+		"firstName": "Roxane",
 		"middleInitial": "A",
-		"lastName": "Kautzer",
-		"academicTitle": "PhD",
-		"title": "Legacy Mobility Architect",
-		"organization": "Xavier University",
-		"learners": 4504,
-		"courses": [
-			{
-				"courseNumber": 39,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 79,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "3.9",
-		"numberOfRatings": 8240
-	},
-	{
-		"id": 47,
-		"firstName": "Ludwig",
-		"middleInitial": "B",
-		"lastName": "Collier",
-		"academicTitle": "Professor",
-		"title": "District Program Executive",
-		"organization": "University of Central Arkansas",
-		"learners": 3854,
-		"courses": [
-			{
-				"courseNumber": 20,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 37,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 64,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 8625
-	},
-	{
-		"id": 48,
-		"firstName": "Ephraim",
-		"middleInitial": "B",
-		"lastName": "Bergstrom",
-		"academicTitle": "Professor",
-		"title": "Human Research Orchestrator",
-		"organization": "Northwestern State University of Louisiana",
-		"learners": 2578,
-		"courses": [
-			{
-				"courseNumber": 19,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 52,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 73,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.5",
-		"numberOfRatings": 5461
-	},
-	{
-		"id": 49,
-		"firstName": "Kathryne",
-		"middleInitial": "C",
-		"lastName": "Bartoletti",
-		"academicTitle": "PhD",
-		"title": "Product Division Liaison",
-		"organization": "Xavier University",
-		"learners": 4530,
-		"courses": [],
-		"instructorAverageRating": "3.9",
-		"numberOfRatings": 8299
-	},
-	{
-		"id": 50,
-		"firstName": "Lorenz",
-		"middleInitial": "A",
-		"lastName": "Senger",
-		"academicTitle": "Associate Professor",
-		"title": "Human Brand Developer",
-		"organization": "Georgia Institute of Technology-Main Campus",
-		"learners": 1230,
-		"courses": [
-			{
-				"courseNumber": 70,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 79,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 87,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 99,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.2",
-		"numberOfRatings": 2451
-	},
-	{
-		"id": 51,
-		"firstName": "Lucio",
-		"middleInitial": "C",
-		"lastName": "Kozey",
-		"academicTitle": "Professor",
-		"title": "Forward Usability Architect",
-		"organization": "Toccoa Falls College",
-		"learners": 3727,
-		"courses": [
-			{
-				"courseNumber": 43,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 71,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 74,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 8297
-	},
-	{
-		"id": 52,
-		"firstName": "Werner",
-		"middleInitial": "A",
-		"lastName": "Oberbrunner",
-		"academicTitle": "Professor",
-		"title": "Senior Optimization Administrator",
-		"organization": "Vincennes University",
-		"learners": 4101,
-		"courses": [
-			{
-				"courseNumber": 14,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 44,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 70,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 92,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 9271
-	},
-	{
-		"id": 53,
-		"firstName": "Emilie",
-		"middleInitial": "C",
-		"lastName": "Mertz",
-		"academicTitle": "Instructor",
-		"title": "Global Security Orchestrator",
-		"organization": "Dallas Christian College",
-		"learners": 618,
-		"courses": [
-			{
-				"courseNumber": 18,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 1195
-	},
-	{
-		"id": 54,
-		"firstName": "Caterina",
-		"middleInitial": "C",
 		"lastName": "Gutkowski",
 		"academicTitle": "Associate Professor",
-		"title": "Regional Metrics Associate",
-		"organization": "Farmingdale State College",
-		"learners": 1108,
-		"courses": [
-			{
-				"courseNumber": 18,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 24,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 43,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 62,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.2",
-		"numberOfRatings": 2194
-	},
-	{
-		"id": 55,
-		"firstName": "Keenan",
-		"middleInitial": "A",
-		"lastName": "Friesen",
-		"academicTitle": "Professor",
-		"title": "Internal Interactions Orchestrator",
-		"organization": "Vincennes University",
-		"learners": 4167,
-		"courses": [
-			{
-				"courseNumber": 21,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 23,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 37,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 56,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 9447
-	},
-	{
-		"id": 56,
-		"firstName": "Kaci",
-		"middleInitial": "C",
-		"lastName": "Goldner",
-		"academicTitle": "PhD",
-		"title": "Human Communications Designer",
-		"organization": "Youngstown State University",
-		"learners": 4643,
-		"courses": [
-			{
-				"courseNumber": 40,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 54,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "3.9",
-		"numberOfRatings": 8557
-	},
-	{
-		"id": 57,
-		"firstName": "Meghan",
-		"middleInitial": "C",
-		"lastName": "Kassulke",
-		"academicTitle": "Professor",
-		"title": "Direct Research Administrator",
-		"organization": "Northwestern State University of Louisiana",
-		"learners": 2633,
-		"courses": [
-			{
-				"courseNumber": 75,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 78,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 79,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 91,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.5",
-		"numberOfRatings": 5590
-	},
-	{
-		"id": 58,
-		"firstName": "Mya",
-		"middleInitial": "A",
-		"lastName": "Mante",
-		"academicTitle": "Professor",
-		"title": "Dynamic Security Technician",
-		"organization": "Keiser University-Ft Lauderdale",
-		"learners": 2103,
-		"courses": [
-			{
-				"courseNumber": 36,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 95,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 96,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 4360
-	},
-	{
-		"id": 59,
-		"firstName": "Aurelia",
-		"middleInitial": "C",
-		"lastName": "Bednar",
-		"academicTitle": "Professor",
-		"title": "International Optimization Executive",
-		"organization": "Lewis University",
-		"learners": 2128,
-		"courses": [
-			{
-				"courseNumber": 16,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 46,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 80,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 93,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 4417
-	},
-	{
-		"id": 60,
-		"firstName": "Joesph",
-		"middleInitial": "C",
-		"lastName": "Schuppe",
-		"academicTitle": "Associate Professor",
-		"title": "Global Response Director",
+		"title": "Product Integration Associate",
 		"organization": "Jewish Theological Seminary of America",
-		"learners": 1873,
-		"courses": [
-			{
-				"courseNumber": 14,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 100,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 3842
-	},
-	{
-		"id": 61,
-		"firstName": "Matilde",
-		"middleInitial": "A",
-		"lastName": "Spinka",
-		"academicTitle": "Instructor",
-		"title": "National Markets Specialist",
-		"organization": "Alfred University",
-		"learners": 21,
-		"courses": [
-			{
-				"courseNumber": 42,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 49,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 75,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 40
-	},
-	{
-		"id": 62,
-		"firstName": "Jody",
-		"middleInitial": "C",
-		"lastName": "Smitham",
-		"academicTitle": "Professor",
-		"title": "District Accountability Supervisor",
-		"organization": "Pacific Islands University",
-		"learners": 3015,
-		"courses": [
-			{
-				"courseNumber": 27,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 73,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 6509
-	},
-	{
-		"id": 63,
-		"firstName": "Carlotta",
-		"middleInitial": "B",
-		"lastName": "Grant",
-		"academicTitle": "Professor",
-		"title": "Regional Web Facilitator",
-		"organization": "University of Central Arkansas",
-		"learners": 3962,
-		"courses": [],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 8905
-	},
-	{
-		"id": 64,
-		"firstName": "Christy",
-		"middleInitial": "B",
-		"lastName": "Hessel",
-		"academicTitle": "Professor",
-		"title": "Forward Integration Liaison",
-		"organization": "Radford University",
-		"learners": 3449,
-		"courses": [
-			{
-				"courseNumber": 47,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 73,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 7586
-	},
-	{
-		"id": 65,
-		"firstName": "Lottie",
-		"middleInitial": "A",
-		"lastName": "Pollich",
-		"academicTitle": "Professor",
-		"title": "Human Brand Officer",
-		"organization": "Ohio State University",
-		"learners": 2796,
-		"courses": [
-			{
-				"courseNumber": 46,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 62,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 75,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 93,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 5979
-	},
-	{
-		"id": 66,
-		"firstName": "Loma",
-		"middleInitial": "B",
-		"lastName": "Brown",
-		"academicTitle": "PhD",
-		"title": "Regional Data Assistant",
-		"organization": "Xavier University",
-		"learners": 4529,
-		"courses": [
-			{
-				"courseNumber": 64,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "3.9",
-		"numberOfRatings": 8296
-	},
-	{
-		"id": 67,
-		"firstName": "Laisha",
-		"middleInitial": "A",
-		"lastName": "Kohler",
-		"academicTitle": "Professor",
-		"title": "Global Mobility Producer",
-		"organization": "Saint Mary's College of California",
-		"learners": 3586,
-		"courses": [
-			{
-				"courseNumber": 38,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 56,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 69,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 77,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 7934
-	},
-	{
-		"id": 68,
-		"firstName": "Marlin",
-		"middleInitial": "B",
-		"lastName": "Watsica",
-		"academicTitle": "Professor",
-		"title": "Global Integration Administrator",
-		"organization": "Queens University of Charlotte",
-		"learners": 3130,
-		"courses": [
-			{
-				"courseNumber": 34,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 6792
-	},
-	{
-		"id": 69,
-		"firstName": "Oren",
-		"middleInitial": "C",
-		"lastName": "Weber",
-		"academicTitle": "Professor",
-		"title": "Chief Tactics Assistant",
-		"organization": "Vincennes University",
-		"learners": 4117,
-		"courses": [
-			{
-				"courseNumber": 18,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 23,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 9315
-	},
-	{
-		"id": 70,
-		"firstName": "Natalie",
-		"middleInitial": "C",
-		"lastName": "Schumm",
-		"academicTitle": "Instructor",
-		"title": "Principal Web Administrator",
-		"organization": "Dallas Christian College",
-		"learners": 719,
-		"courses": [
-			{
-				"courseNumber": 12,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 99,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.1",
-		"numberOfRatings": 1397
-	},
-	{
-		"id": 71,
-		"firstName": "Crawford",
-		"middleInitial": "B",
-		"lastName": "Ankunding",
-		"academicTitle": "Professor",
-		"title": "International Markets Agent",
-		"organization": "Toccoa Falls College",
-		"learners": 3821,
+		"learners": 1914,
 		"courses": [
 			{
 				"courseNumber": 11,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 24,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 8538
-	},
-	{
-		"id": 72,
-		"firstName": "Lisette",
-		"middleInitial": "B",
-		"lastName": "Nicolas",
-		"academicTitle": "Instructor",
-		"title": "Human Response Planner",
-		"organization": "Dallas Christian College",
-		"learners": 769,
-		"courses": [
-			{
-				"courseNumber": 19,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 45,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.2",
-		"numberOfRatings": 1498
-	},
-	{
-		"id": 73,
-		"firstName": "Joana",
-		"middleInitial": "A",
-		"lastName": "Hamill",
-		"academicTitle": "PhD",
-		"title": "Senior Directives Orchestrator",
-		"organization": "Zaytuna College",
-		"learners": 4979,
-		"courses": [
-			{
-				"courseNumber": 35,
-				"isPrimaryInstructor": false
-			},
-			{
 				"courseNumber": 39,
 				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 87,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 100,
-				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 9331
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 3935
 	},
 	{
 		"id": 74,
-		"firstName": "Micah",
+		"firstName": "Cordell",
 		"middleInitial": "A",
-		"lastName": "Oberbrunner",
+		"lastName": "Johnston",
 		"academicTitle": "Professor",
-		"title": "Dynamic Implementation Manager",
+		"title": "Central Usability Analyst",
 		"organization": "Radford University",
-		"learners": 3457,
-		"courses": [
-			{
-				"courseNumber": 60,
-				"isPrimaryInstructor": false
-			}
-		],
+		"learners": 3403,
+		"courses": [],
 		"instructorAverageRating": "4.7",
-		"numberOfRatings": 7607
+		"numberOfRatings": 7472
 	},
 	{
 		"id": 75,
-		"firstName": "Josie",
-		"middleInitial": "A",
-		"lastName": "Koch",
-		"academicTitle": "Instructor",
-		"title": "Internal Functionality Consultant",
-		"organization": "Alfred University",
-		"learners": 112,
+		"firstName": "Jannie",
+		"middleInitial": "B",
+		"lastName": "Jacobi",
+		"academicTitle": "Professor",
+		"title": "Central Paradigm Designer",
+		"organization": "Queens University of Charlotte",
+		"learners": 3223,
 		"courses": [
 			{
-				"courseNumber": 12,
+				"courseNumber": 32,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 52,
+				"courseNumber": 78,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 7020
+	},
+	{
+		"id": 76,
+		"firstName": "Brad",
+		"middleInitial": "B",
+		"lastName": "Hettinger",
+		"academicTitle": "Professor",
+		"title": "National Solutions Administrator",
+		"organization": "Northwestern State University of Louisiana",
+		"learners": 2684,
+		"courses": [
+			{
+				"courseNumber": 1,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 50,
 				"isPrimaryInstructor": false
 			},
 			{
@@ -1814,172 +1838,172 @@
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 62,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 70,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 72,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 212
-	},
-	{
-		"id": 76,
-		"firstName": "Doris",
-		"middleInitial": "C",
-		"lastName": "Rohan",
-		"academicTitle": "Professor",
-		"title": "Senior Interactions Associate",
-		"organization": "Marian University",
-		"learners": 2452,
-		"courses": [
-			{
-				"courseNumber": 9,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 40,
+				"courseNumber": 89,
 				"isPrimaryInstructor": false
 			}
 		],
 		"instructorAverageRating": "4.5",
-		"numberOfRatings": 5166
+		"numberOfRatings": 5710
 	},
 	{
 		"id": 77,
-		"firstName": "Darryl",
+		"firstName": "Cornelius",
+		"middleInitial": "A",
+		"lastName": "Huel",
+		"academicTitle": "Professor",
+		"title": "Lead Research Strategist",
+		"organization": "Northwestern State University of Louisiana",
+		"learners": 2664,
+		"courses": [
+			{
+				"courseNumber": 42,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 48,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 90,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 100,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.5",
+		"numberOfRatings": 5664
+	},
+	{
+		"id": 78,
+		"firstName": "Nannie",
 		"middleInitial": "B",
-		"lastName": "Jacobi",
+		"lastName": "Rice",
 		"academicTitle": "Instructor",
-		"title": "Lead Applications Administrator",
-		"organization": "Baylor University",
-		"learners": 194,
+		"title": "Corporate Implementation Technician",
+		"organization": "Dallas Christian College",
+		"learners": 585,
+		"courses": [
+			{
+				"courseNumber": 14,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 1130
+	},
+	{
+		"id": 79,
+		"firstName": "Larissa",
+		"middleInitial": "A",
+		"lastName": "Rosenbaum",
+		"academicTitle": "Professor",
+		"title": "Internal Factors Coordinator",
+		"organization": "Wright State University",
+		"learners": 4233,
+		"courses": [],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 9621
+	},
+	{
+		"id": 80,
+		"firstName": "Kailee",
+		"middleInitial": "C",
+		"lastName": "Lemke",
+		"academicTitle": "Associate Professor",
+		"title": "Corporate Web Director",
+		"organization": "Farmingdale State College",
+		"learners": 1012,
+		"courses": [
+			{
+				"courseNumber": 11,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 79,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.2",
+		"numberOfRatings": 1995
+	},
+	{
+		"id": 81,
+		"firstName": "Marco",
+		"middleInitial": "B",
+		"lastName": "Hudson",
+		"academicTitle": "Associate Professor",
+		"title": "Product Web Executive",
+		"organization": "Georgia Institute of Technology-Main Campus",
+		"learners": 1268,
+		"courses": [
+			{
+				"courseNumber": 27,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 98,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 2531
+	},
+	{
+		"id": 82,
+		"firstName": "Isobel",
+		"middleInitial": "B",
+		"lastName": "Hickle",
+		"academicTitle": "PhD",
+		"title": "Dynamic Assurance Assistant",
+		"organization": "Xavier University",
+		"learners": 4492,
 		"courses": [
 			{
 				"courseNumber": 1,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 7,
+				"courseNumber": 5,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 8,
+				"courseNumber": 29,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 34,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 89,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 98,
 				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 367
+		"instructorAverageRating": "4.9",
+		"numberOfRatings": 10321
 	},
 	{
-		"id": 78,
-		"firstName": "Queenie",
+		"id": 83,
+		"firstName": "Hester",
 		"middleInitial": "B",
-		"lastName": "Krajcik",
-		"academicTitle": "PhD",
-		"title": "District Identity Liaison",
-		"organization": "Xavier University",
-		"learners": 4531,
-		"courses": [
-			{
-				"courseNumber": 16,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 53,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 66,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "3.9",
-		"numberOfRatings": 8301
-	},
-	{
-		"id": 79,
-		"firstName": "Christelle",
-		"middleInitial": "A",
-		"lastName": "Hayes",
+		"lastName": "Marks",
 		"academicTitle": "Professor",
-		"title": "Direct Applications Manager",
-		"organization": "Queens University of Charlotte",
-		"learners": 3090,
-		"courses": [
-			{
-				"courseNumber": 7,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 32,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 6694
-	},
-	{
-		"id": 80,
-		"firstName": "Lonny",
-		"middleInitial": "A",
-		"lastName": "Flatley",
-		"academicTitle": "Professor",
-		"title": "Principal Usability Administrator",
-		"organization": "Ohio State University",
-		"learners": 2863,
-		"courses": [],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 6139
-	},
-	{
-		"id": 81,
-		"firstName": "Beau",
-		"middleInitial": "C",
-		"lastName": "Kunde",
-		"academicTitle": "Professor",
-		"title": "Investor Solutions Supervisor",
+		"title": "District Division Planner",
 		"organization": "Lewis University",
-		"learners": 2282,
+		"learners": 2164,
 		"courses": [
 			{
-				"courseNumber": 26,
+				"courseNumber": 62,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 42,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 51,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.5",
-		"numberOfRatings": 4771
-	},
-	{
-		"id": 82,
-		"firstName": "Candace",
-		"middleInitial": "C",
-		"lastName": "Collins",
-		"academicTitle": "Associate Professor",
-		"title": "Regional Operations Designer",
-		"organization": "Georgia Institute of Technology-Main Campus",
-		"learners": 1294,
-		"courses": [
-			{
-				"courseNumber": 3,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 30,
+				"courseNumber": 70,
 				"isPrimaryInstructor": false
 			},
 			{
@@ -1987,216 +2011,65 @@
 				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "4.3",
-		"numberOfRatings": 2584
-	},
-	{
-		"id": 83,
-		"firstName": "Ruthie",
-		"middleInitial": "A",
-		"lastName": "Hane",
-		"academicTitle": "PhD",
-		"title": "Dynamic Operations Administrator",
-		"organization": "Youngstown State University",
-		"learners": 4794,
-		"courses": [
-			{
-				"courseNumber": 46,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 54,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 68,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 91,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 96,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 8903
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 4500
 	},
 	{
 		"id": 84,
-		"firstName": "Karley",
-		"middleInitial": "C",
-		"lastName": "Runte",
-		"academicTitle": "Professor",
-		"title": "Future Solutions Executive",
-		"organization": "University of Central Arkansas",
-		"learners": 3867,
-		"courses": [
-			{
-				"courseNumber": 17,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 71,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 78,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 8657
-	},
-	{
-		"id": 85,
-		"firstName": "Nya",
+		"firstName": "Enoch",
 		"middleInitial": "A",
-		"lastName": "Buckridge",
+		"lastName": "Jerde",
 		"academicTitle": "Professor",
-		"title": "Regional Intranet Manager",
-		"organization": "Lewis University",
-		"learners": 2274,
+		"title": "Dynamic Marketing Director",
+		"organization": "Keiser University-Ft Lauderdale",
+		"learners": 2051,
 		"courses": [
 			{
 				"courseNumber": 3,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 6,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 52,
+				"courseNumber": 35,
 				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "4.5",
-		"numberOfRatings": 4752
+		"instructorAverageRating": "4.4",
+		"numberOfRatings": 4243
 	},
 	{
-		"id": 86,
-		"firstName": "Hosea",
-		"middleInitial": "B",
-		"lastName": "Kilback",
-		"academicTitle": "Professor",
-		"title": "Human Integration Developer",
-		"organization": "Queens University of Charlotte",
-		"learners": 3114,
-		"courses": [
-			{
-				"courseNumber": 55,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 6753
-	},
-	{
-		"id": 87,
-		"firstName": "Lysanne",
-		"middleInitial": "A",
-		"lastName": "Gleason",
-		"academicTitle": "Professor",
-		"title": "Customer Identity Assistant",
-		"organization": "Pacific Islands University",
-		"learners": 2981,
-		"courses": [
-			{
-				"courseNumber": 40,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 60,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 6426
-	},
-	{
-		"id": 88,
-		"firstName": "Megane",
+		"id": 85,
+		"firstName": "Lourdes",
 		"middleInitial": "C",
-		"lastName": "Wunsch",
+		"lastName": "Mills",
 		"academicTitle": "Instructor",
-		"title": "Dynamic Factors Assistant",
-		"organization": "Dallas Christian College",
-		"learners": 625,
+		"title": "Internal Group Facilitator",
+		"organization": "Baylor University",
+		"learners": 279,
 		"courses": [
 			{
-				"courseNumber": 15,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 30,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 65,
+				"courseNumber": 86,
 				"isPrimaryInstructor": false
 			}
 		],
 		"instructorAverageRating": "4.1",
-		"numberOfRatings": 1209
+		"numberOfRatings": 531
 	},
 	{
-		"id": 89,
-		"firstName": "Abe",
-		"middleInitial": "A",
-		"lastName": "Bins",
-		"academicTitle": "Professor",
-		"title": "Regional Paradigm Executive",
-		"organization": "Keiser University-Ft Lauderdale",
-		"learners": 2054,
+		"id": 86,
+		"firstName": "Leopoldo",
+		"middleInitial": "B",
+		"lastName": "Cummerata",
+		"academicTitle": "PhD",
+		"title": "Dynamic Division Producer",
+		"organization": "Xavier University",
+		"learners": 4599,
 		"courses": [
 			{
-				"courseNumber": 31,
+				"courseNumber": 6,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 65,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 67,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 4250
-	},
-	{
-		"id": 90,
-		"firstName": "Jonas",
-		"middleInitial": "C",
-		"lastName": "Haley",
-		"academicTitle": "Professor",
-		"title": "National Accounts Planner",
-		"organization": "Lewis University",
-		"learners": 2160,
-		"courses": [],
-		"instructorAverageRating": "4.4",
-		"numberOfRatings": 4489
-	},
-	{
-		"id": 91,
-		"firstName": "Louie",
-		"middleInitial": "A",
-		"lastName": "Lebsack",
-		"academicTitle": "Professor",
-		"title": "Regional Communications Manager",
-		"organization": "Lewis University",
-		"learners": 2297,
-		"courses": [
-			{
-				"courseNumber": 9,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 14,
+				"courseNumber": 16,
 				"isPrimaryInstructor": false
 			},
 			{
@@ -2204,142 +2077,125 @@
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 56,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.5",
-		"numberOfRatings": 4806
-	},
-	{
-		"id": 92,
-		"firstName": "Mustafa",
-		"middleInitial": "A",
-		"lastName": "Collier",
-		"academicTitle": "Professor",
-		"title": "Principal Solutions Designer",
-		"organization": "Saint Mary's College of California",
-		"learners": 3503,
-		"courses": [
-			{
-				"courseNumber": 51,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.7",
-		"numberOfRatings": 7723
-	},
-	{
-		"id": 93,
-		"firstName": "Francesco",
-		"middleInitial": "A",
-		"lastName": "Ruecker",
-		"academicTitle": "Associate Professor",
-		"title": "Principal Interactions Manager",
-		"organization": "Indiana Institute of Technology",
-		"learners": 1594,
-		"courses": [
-			{
-				"courseNumber": 12,
+				"courseNumber": 34,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 78,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.3",
-		"numberOfRatings": 3230
-	},
-	{
-		"id": 94,
-		"firstName": "Tyreek",
-		"middleInitial": "A",
-		"lastName": "Dickinson",
-		"academicTitle": "Professor",
-		"title": "Human Applications Facilitator",
-		"organization": "Vincennes University",
-		"learners": 4180,
-		"courses": [
-			{
-				"courseNumber": 22,
+				"courseNumber": 36,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 28,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 30,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.8",
-		"numberOfRatings": 9483
-	},
-	{
-		"id": 95,
-		"firstName": "Kurtis",
-		"middleInitial": "C",
-		"lastName": "Schmitt",
-		"academicTitle": "Associate Professor",
-		"title": "Principal Accounts Strategist",
-		"organization": "Indiana Institute of Technology",
-		"learners": 1676,
-		"courses": [],
-		"instructorAverageRating": "4.3",
-		"numberOfRatings": 3407
-	},
-	{
-		"id": 96,
-		"firstName": "Randy",
-		"middleInitial": "B",
-		"lastName": "O'Connell",
-		"academicTitle": "PhD",
-		"title": "District Directives Agent",
-		"organization": "Youngstown State University",
-		"learners": 4679,
-		"courses": [
-			{
-				"courseNumber": 8,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 33,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 45,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 57,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 93,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 99,
+				"courseNumber": 49,
 				"isPrimaryInstructor": false
 			}
 		],
 		"instructorAverageRating": "3.9",
-		"numberOfRatings": 8638
+		"numberOfRatings": 8456
 	},
 	{
-		"id": 97,
-		"firstName": "Karley",
-		"middleInitial": "C",
-		"lastName": "Lowe",
-		"academicTitle": "Instructor",
-		"title": "Principal Directives Manager",
-		"organization": "Baylor University",
-		"learners": 217,
+		"id": 87,
+		"firstName": "Roxanne",
+		"middleInitial": "A",
+		"lastName": "Hyatt",
+		"academicTitle": "Professor",
+		"title": "District Factors Specialist",
+		"organization": "Pacific Islands University",
+		"learners": 2949,
 		"courses": [
 			{
-				"courseNumber": 20,
+				"courseNumber": 59,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 68,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 70,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 76,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6348
+	},
+	{
+		"id": 88,
+		"firstName": "Monica",
+		"middleInitial": "A",
+		"lastName": "Dibbert",
+		"academicTitle": "Associate Professor",
+		"title": "Legacy Marketing Planner",
+		"organization": "Hofstra University",
+		"learners": 1358,
+		"courses": [
+			{
+				"courseNumber": 49,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 2721
+	},
+	{
+		"id": 89,
+		"firstName": "Merl",
+		"middleInitial": "C",
+		"lastName": "Powlowski",
+		"academicTitle": "Professor",
+		"title": "International Operations Developer",
+		"organization": "Queens University of Charlotte",
+		"learners": 3223,
+		"courses": [
+			{
+				"courseNumber": 47,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 7021
+	},
+	{
+		"id": 90,
+		"firstName": "Erica",
+		"middleInitial": "C",
+		"lastName": "Jenkins",
+		"academicTitle": "Professor",
+		"title": "Direct Quality Facilitator",
+		"organization": "Queens University of Charlotte",
+		"learners": 3120,
+		"courses": [
+			{
+				"courseNumber": 16,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 55,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 59,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.6",
+		"numberOfRatings": 6767
+	},
+	{
+		"id": 91,
+		"firstName": "Burley",
+		"middleInitial": "C",
+		"lastName": "Abbott",
+		"academicTitle": "Professor",
+		"title": "Global Creative Director",
+		"organization": "Northwestern State University of Louisiana",
+		"learners": 2511,
+		"courses": [
+			{
+				"courseNumber": 11,
 				"isPrimaryInstructor": false
 			},
 			{
@@ -2347,76 +2203,245 @@
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 94,
-				"isPrimaryInstructor": false
-			}
-		],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 412
-	},
-	{
-		"id": 98,
-		"firstName": "Janis",
-		"middleInitial": "C",
-		"lastName": "Walsh",
-		"academicTitle": "Instructor",
-		"title": "Internal Branding Analyst",
-		"organization": "Alfred University",
-		"learners": 154,
-		"courses": [],
-		"instructorAverageRating": "4.0",
-		"numberOfRatings": 292
-	},
-	{
-		"id": 99,
-		"firstName": "Claudia",
-		"middleInitial": "C",
-		"lastName": "Graham",
-		"academicTitle": "PhD",
-		"title": "National Quality Administrator",
-		"organization": "Youngstown State University",
-		"learners": 4681,
-		"courses": [
-			{
-				"courseNumber": 21,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 32,
-				"isPrimaryInstructor": false
-			},
-			{
-				"courseNumber": 42,
-				"isPrimaryInstructor": false
-			},
-			{
 				"courseNumber": 55,
 				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "3.9",
-		"numberOfRatings": 8642
+		"instructorAverageRating": "4.5",
+		"numberOfRatings": 5303
 	},
 	{
-		"id": 100,
-		"firstName": "Deondre",
+		"id": 92,
+		"firstName": "Oran",
 		"middleInitial": "B",
-		"lastName": "Gaylord",
-		"academicTitle": "Professor",
-		"title": "Internal Optimization Officer",
-		"organization": "Pacific Islands University",
-		"learners": 2928,
+		"lastName": "Fay",
+		"academicTitle": "Instructor",
+		"title": "Regional Quality Specialist",
+		"organization": "Alfred University",
+		"learners": 107,
 		"courses": [
 			{
-				"courseNumber": 22,
+				"courseNumber": 31,
 				"isPrimaryInstructor": false
 			},
 			{
-				"courseNumber": 60,
+				"courseNumber": 45,
 				"isPrimaryInstructor": false
 			}
 		],
-		"instructorAverageRating": "4.6",
-		"numberOfRatings": 6299
+		"instructorAverageRating": "4.0",
+		"numberOfRatings": 202
+	},
+	{
+		"id": 93,
+		"firstName": "Jaquelin",
+		"middleInitial": "A",
+		"lastName": "Gutkowski",
+		"academicTitle": "Associate Professor",
+		"title": "Chief Intranet Officer",
+		"organization": "Hofstra University",
+		"learners": 1390,
+		"courses": [
+			{
+				"courseNumber": 15,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 40,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 58,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 2788
+	},
+	{
+		"id": 94,
+		"firstName": "Hector",
+		"middleInitial": "A",
+		"lastName": "Yost",
+		"academicTitle": "Professor",
+		"title": "District Intranet Consultant",
+		"organization": "Lewis University",
+		"learners": 2301,
+		"courses": [
+			{
+				"courseNumber": 3,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 12,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 37,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 46,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.5",
+		"numberOfRatings": 4814
+	},
+	{
+		"id": 95,
+		"firstName": "Lavonne",
+		"middleInitial": "B",
+		"lastName": "Anderson",
+		"academicTitle": "Instructor",
+		"title": "Dynamic Data Producer",
+		"organization": "East Carolina University",
+		"learners": 886,
+		"courses": [
+			{
+				"courseNumber": 9,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 38,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 52,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 69,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 97,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.2",
+		"numberOfRatings": 1737
+	},
+	{
+		"id": 96,
+		"firstName": "Micheal",
+		"middleInitial": "B",
+		"lastName": "Ledner",
+		"academicTitle": "Instructor",
+		"title": "International Response Developer",
+		"organization": "Baylor University",
+		"learners": 271,
+		"courses": [
+			{
+				"courseNumber": 15,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 25,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 85,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.1",
+		"numberOfRatings": 515
+	},
+	{
+		"id": 97,
+		"firstName": "Ernest",
+		"middleInitial": "C",
+		"lastName": "Bauch",
+		"academicTitle": "Professor",
+		"title": "Product Communications Executive",
+		"organization": "Toccoa Falls College",
+		"learners": 3812,
+		"courses": [
+			{
+				"courseNumber": 84,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.8",
+		"numberOfRatings": 8516
+	},
+	{
+		"id": 98,
+		"firstName": "Laurel",
+		"middleInitial": "A",
+		"lastName": "Kessler",
+		"academicTitle": "Associate Professor",
+		"title": "Central Web Agent",
+		"organization": "Farmingdale State College",
+		"learners": 1050,
+		"courses": [
+			{
+				"courseNumber": 20,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 30,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 41,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 69,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.2",
+		"numberOfRatings": 2074
+	},
+	{
+		"id": 99,
+		"firstName": "Ernestine",
+		"middleInitial": "A",
+		"lastName": "Kulas",
+		"academicTitle": "Professor",
+		"title": "Principal Infrastructure Director",
+		"organization": "Saint Mary's College of California",
+		"learners": 3505,
+		"courses": [
+			{
+				"courseNumber": 52,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 85,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.7",
+		"numberOfRatings": 7729
+	},
+	{
+		"id": 100,
+		"firstName": "Kaylin",
+		"middleInitial": "C",
+		"lastName": "Kshlerin",
+		"academicTitle": "Associate Professor",
+		"title": "Dynamic Configuration Designer",
+		"organization": "Indiana Institute of Technology",
+		"learners": 1611,
+		"courses": [
+			{
+				"courseNumber": 5,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 56,
+				"isPrimaryInstructor": false
+			},
+			{
+				"courseNumber": 93,
+				"isPrimaryInstructor": false
+			}
+		],
+		"instructorAverageRating": "4.3",
+		"numberOfRatings": 3266
 	}
 ]

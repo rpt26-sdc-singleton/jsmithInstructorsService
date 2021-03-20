@@ -17,16 +17,25 @@
     "generate": "npm run generateInstructors && npm run generateOfferedBys && npm run generateTestimonials",
     "test": "jest",
     "insert": "npm run insertInstructors && npm run insertOfferedBys && npm run insertTestimonials",
-    "start": "node server/index.js"
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack --watch",
+    "build": "webpack"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.12.0"
+    "mongoose": "^5.12.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.21.0",
     "eslint-config-hackreactor": "^1.0.0",
-    "faker": "^5.4.0"
+    "faker": "^5.4.0",
+    "webpack": "^5.27.0",
+    "webpack-cli": "^4.5.0"
   }
 }

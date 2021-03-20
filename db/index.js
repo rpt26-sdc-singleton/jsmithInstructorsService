@@ -6,21 +6,8 @@ const Instructors = require('./models/instructorsModel');
 const OfferedBys = require('./models/offeredBysModel');
 const Testimonials = require('./models/testimonialsModel');
 
+const imagesPort = process.env.IMAGES_PORT;
 
-mongoose.connect('mongodb://localhost/instructors', { useNewUrlParser: true, useUnifiedTopology: true });
-const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', () => {
-  console.log('db connection opened');
-});
-
-//refactor to use one Model
-// const Instructors = mongoose.model('instructors', instructorsSchema);
-// const OfferedBys = mongoose.model('offeredbys', offeredBysSchema);
-// const Testimonials = mongoose.model('testimonials', testimonialsSchema);
-const imagesPort = 3006;
-
-//returns an array of instructors that belong to a course
 findInstructors = (courseNumber, cb) => {
   let options = {courses: {$elemMatch: { courseNumber }}};
   Instructors.find(options)
@@ -85,6 +72,18 @@ findTestimonials = (courseNumber, cb) => {
     .catch((err) => {
       if (err) {
         console.error('Error in findTestimonials DB method: ', err);
+      }
+    });
+};
+
+allInstructors = (cb) => {
+  Instructors.find()
+    .then((dbResponse) => {
+      cb(dbResponse);
+    })
+    .catch((err) => {
+      if (err) {
+        console.error('Error in allInstructors DB method');
       }
     });
 };

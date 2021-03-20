@@ -23,6 +23,13 @@ app.get('/api/primaryInstructor/:courseNumber', (req, res) => {
   });
 });
 
+//returns all instructors for all courses (for images seed script)
+app.get('/api/allInstructors', (req, res) => {
+  db.findPrimaryInstructor(parseInt(req.params.courseNumber), (dbResponse) => {
+    res.send(dbResponse);
+  });
+});
+
 //returns the offeredBy for a course
 app.get('/api/offeredBy/:courseNumber', (req, res) => {
   db.findOfferedBy(parseInt(req.params.courseNumber), (dbResponse) => {
