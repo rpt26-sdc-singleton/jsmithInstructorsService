@@ -1,5 +1,5 @@
 module.exports = {
-  syllabusData: {
+  syllabusData: [{
     'id': 0,
     'firstName': '',
     'middleInitial': '',
@@ -14,5 +14,5 @@ module.exports = {
     }],
     'instructorAverageRating': '',
     'numberOfRatings': 0
-  }
+  }]
 };

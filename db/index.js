@@ -9,11 +9,13 @@ const Testimonials = require('./models/testimonialsModel');
 const imagesPort = process.env.IMAGES_PORT;
 
 findInstructors = (courseNumber, cb) => {
+  // console.log('courseNumber: ', courseNumber);
+
   let options = {courses: {$elemMatch: { courseNumber }}};
   Instructors.find(options)
     .then((dbResponse) => {
       cb(dbResponse);
-      mongoose.connection.close();
+      // mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
