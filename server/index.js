@@ -1,13 +1,20 @@
 const express = require('express');
 const db = require('../db/index.js');
 const bodyParser = require('body-parser');
+const path = require('path');
+const cors = require('cors');
 
 const app = express();
 const port = 3003;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(express.static(__dirname + '/../client/dist'));
+app.use(express.static('public'));
+app.use(cors());
+
+app.get('/:courseNumber', (req, res) => {
+  res.sendFile(path.resolve('./public/index.html'));
+});
 
 //returns an array of instructors that belong to a course
 app.get('/api/instructors/:courseNumber', (req, res) => {
