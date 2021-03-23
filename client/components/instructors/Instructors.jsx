@@ -3,7 +3,6 @@ import initialState from './initialState';
 
 const Instructors = () => {
   const course = window.location.pathname.split('/')[1];
-  // console.log('course: ', course);
   const [courseNumber, setCourseNumber] = useState(course);
   const [instructorsData, setInstructorsData] = useState(initialState.syllabusData);
   useEffect(() => {
