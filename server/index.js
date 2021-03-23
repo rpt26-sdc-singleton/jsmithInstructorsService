@@ -19,7 +19,7 @@ app.get('/:courseNumber', (req, res) => {
 //returns an array of instructors that belong to a course
 app.get('/api/instructors/:courseNumber', (req, res) => {
   db.findInstructors(parseInt(req.params.courseNumber), (dbResponse) => {
-    console.log('sending dbResponse: ', dbResponse);
+    // console.log('sending dbResponse: ', dbResponse);
     res.send(dbResponse);
   });
 });
