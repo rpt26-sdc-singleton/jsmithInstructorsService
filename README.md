@@ -25,13 +25,13 @@
 
 > Generate data with "npm run generate"
 
-> Test generated data with "npm run test"
+> (optional)Test generated data with "npm run test"
 
 > Insert data to database with "npm run insert"
 
 ## Requirements
 
->Instructors relies on ... services for data
+>Instructors relies on Images services for data
 
 >OfferedBys relies on ... services for data
 

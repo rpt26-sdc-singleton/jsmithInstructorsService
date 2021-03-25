@@ -12,8 +12,8 @@ const Instructors = () => {
   const [label, setLabel] = useState('Instructor');
   const [svgs, setSvgs] = useState(initialState.svgs);
 
+  //GET and set instructors data for this course as state
   useEffect(() => {
-    //set instructors data for this course
     fetch(`http://localhost:3003/api/instructors/${courseNumber}`)
       .then((response) => response.json())
       .then((json) => {
@@ -37,8 +37,6 @@ const Instructors = () => {
         setAdditionalInstructorImages(json.additionalInstructors);
       })
       .catch((err) => { if (err) { console.error(err); } });
-
-    //set svgs
     fetch('http://localhost:3006/api/svgs')
       .then((response) => response.json())
       .then((json) => { setSvgs(json); })
@@ -46,7 +44,6 @@ const Instructors = () => {
   }, []);
 
   return (
-
     <div className="instructors">
       <div className="instructor-label">
         {label}
@@ -71,7 +68,7 @@ const Instructors = () => {
       </span>
       <div className="instructor-grid">
         {instructorsData.map((instructor, index) => {
-        //set instructor image while mapping to pass it to props
+        //set image while mapping, pass as props
           let isPrimary = false;
           let image = primaryInstructorImage;
           //is instructor primary?
@@ -92,7 +89,6 @@ const Instructors = () => {
           return <Instructor key={'instructor'.concat(index)} image={image} instructor={instructor} svgs={svgs} courseNumber={courseNumber} />;
         })}
       </div>
-
     </div>
   );
 };

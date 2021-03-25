@@ -14,14 +14,12 @@ const About = (props) => {
       <div className="instructor-org">
         {props.instructor.organization}
       </div>
-      {/* Learners SVG here */}
       <div className="instructor-learners">
         <svg className="instructor-learnersSVG" viewBox="0 0 80 80" height="18px" width="18px">
           <path d={props.svgs.learnersSVG}></path>
         </svg>
         {`${props.instructor.learners} Learners`}
       </div>
-      {/* Courses SVG here */}
       <div className="instructor-courses">
         <svg className="instructor-coursesSVG" viewBox="0 0 80 80" height="18px" width="18px">
           <path d={props.svgs.coursesSVG}></path>

@@ -8,14 +8,26 @@ const Testimonials = require('./models/testimonialsModel');
 
 const imagesPort = process.env.IMAGES_PORT;
 
-findInstructors = (courseNumber, cb) => {
-  // console.log('courseNumber: ', courseNumber);
+//returns all instructors for all courses
+findAllInstructors = (cb) => {
+  Instructors.find()
+    .then((dbResponse) => {
+      cb(null, dbResponse);
+    })
+    .catch((err) => {
+      if (err) {
+        console.error('Error in findAllInstructors DB method: ', err);
+        cb(err);
+      }
+    });
+};
 
+//returns all instructors for a course
+findInstructors = (courseNumber, cb) => {
   let options = {courses: {$elemMatch: { courseNumber }}};
   Instructors.find(options)
     .then((dbResponse) => {
       cb(dbResponse);
-      // mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -35,6 +47,21 @@ findPrimaryInstructor = (courseNumber, cb) => {
     .catch((err) => {
       if (err) {
         console.error('Error in findPrimaryInstructor DB method: ', err);
+      }
+    });
+};
+
+//returns all offeredBy documents for all courses
+
+findAllOfferedBys = (cb) => {
+  OfferedBys.find()
+    .then((dbResponse) => {
+      cb(null, dbResponse);
+    })
+    .catch((err) => {
+      if (err) {
+        console.error(err);
+        cb(err);
       }
     });
 };
@@ -78,16 +105,4 @@ findTestimonials = (courseNumber, cb) => {
     });
 };
 
-allInstructors = (cb) => {
-  Instructors.find()
-    .then((dbResponse) => {
-      cb(dbResponse);
-    })
-    .catch((err) => {
-      if (err) {
-        console.error('Error in allInstructors DB method');
-      }
-    });
-};
-
-module.exports = { findInstructors, findPrimaryInstructor, findOfferedBy, findTestimonials };
+module.exports = { findAllInstructors, findInstructors, findPrimaryInstructor, findOfferedBy, findTestimonials, findAllOfferedBys };

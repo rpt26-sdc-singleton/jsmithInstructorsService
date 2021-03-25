@@ -16,10 +16,20 @@ app.get('/:courseNumber', (req, res) => {
   res.sendFile(path.resolve('./public/index.html'));
 });
 
+//returns all instructors documents
+app.get('/api/allinstructors', (req, res) => {
+  db.findAllInstructors((err, dbResponse) => {
+    if (err) {
+      res.send(err).status(400);
+    } else {
+      res.send(dbResponse);
+    }
+  });
+});
+
 //returns an array of instructors that belong to a course
 app.get('/api/instructors/:courseNumber', (req, res) => {
   db.findInstructors(parseInt(req.params.courseNumber), (dbResponse) => {
-    // console.log('sending dbResponse: ', dbResponse);
     res.send(dbResponse);
   });
 });
@@ -31,10 +41,14 @@ app.get('/api/primaryInstructor/:courseNumber', (req, res) => {
   });
 });
 
-//returns all instructors for all courses (for images seed script)
-app.get('/api/allInstructors', (req, res) => {
-  db.findPrimaryInstructor(parseInt(req.params.courseNumber), (dbResponse) => {
-    res.send(dbResponse);
+//returns all offeredBy documents for all courses
+app.get('/api/offeredByAll', (req, res) => {
+  db.findAllOfferedBys((err, dbResponse) => {
+    if (err) {
+      res.send(err).status(400);
+    } else {
+      res.send(dbResponse);
+    }
   });
 });
 
