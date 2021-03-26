@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = (props) => {
+const Details = (props) => {
   const instructorAcademicTitle = props.instructor.academicTitle === 'PhD' ? 'Dr. ' : '';
   const courses = props.instructor.courses.length === 1 ? 'Course' : 'Courses';
   return (
@@ -30,4 +30,4 @@ const About = (props) => {
   );
 };
 
-export default About;
+export default Details;

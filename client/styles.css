@@ -92,8 +92,16 @@
 
 .instructor-grid {
   display: grid;
-  grid-template-columns: 50% 50%;
+
   grid-template-rows: 155px;
+}
+
+#instructor-grid-large {
+  grid-template-columns: 50% 50%;
+}
+
+#instructor-grid-small {
+  grid-template-columns: 100%;
 }
 
 .instructor {

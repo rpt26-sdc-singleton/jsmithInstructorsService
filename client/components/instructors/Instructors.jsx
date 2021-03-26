@@ -11,9 +11,22 @@ const Instructors = () => {
   const [additionalInstructorImages, setAdditionalInstructorImages] = useState([{instructorId: 0, instructorImage: ''}]);
   const [label, setLabel] = useState('Instructor');
   const [svgs, setSvgs] = useState(initialState.svgs);
-
+  const [windowSize, setWindowSize] = useState(window.innerWidth);
+  const [gridClass, setGridClass] = useState('instructor-grid-small');
+  const windowSizeGetter = () => {
+    if (window.innerWidth <= 1040) {
+      const element = document.getElementById('instructor-grid-large');
+      setGridClass('instructor-grid-small');
+    } else if (window.innerWidth > 1040) {
+      const element = document.getElementById('instructor-grid-large');
+      setGridClass('instructor-grid-large');
+    }
+  };
   //GET and set instructors data for this course as state
   useEffect(() => {
+    windowSizeGetter();
+    window.addEventListener('resize', windowSizeGetter);
+
     fetch(`http://localhost:3003/api/instructors/${courseNumber}`)
       .then((response) => response.json())
       .then((json) => {
@@ -66,7 +79,7 @@ const Instructors = () => {
           </svg>
         </span>
       </span>
-      <div className="instructor-grid">
+      <div className="instructor-grid" id={gridClass}>
         {instructorsData.map((instructor, index) => {
         //set image while mapping, pass as props
           let isPrimary = false;
