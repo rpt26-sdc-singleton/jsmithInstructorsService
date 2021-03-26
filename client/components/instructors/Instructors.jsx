@@ -15,10 +15,8 @@ const Instructors = () => {
   const [gridClass, setGridClass] = useState('instructor-grid-small');
   const windowSizeGetter = () => {
     if (window.innerWidth <= 1040) {
-      const element = document.getElementById('instructor-grid-large');
       setGridClass('instructor-grid-small');
     } else if (window.innerWidth > 1040) {
-      const element = document.getElementById('instructor-grid-large');
       setGridClass('instructor-grid-large');
     }
   };
@@ -30,7 +28,6 @@ const Instructors = () => {
     fetch(`http://localhost:3003/api/instructors/${courseNumber}`)
       .then((response) => response.json())
       .then((json) => {
-        console.log('instructorsData: ', json);
         setInstructorsData(json);
         const newLabel = json.length > 1 ? 'Instructors' : 'Instructor';
         setLabel(newLabel);
@@ -39,14 +36,12 @@ const Instructors = () => {
     fetch(`http://localhost:3006/api/image/${courseNumber}/primaryInstructor`)
       .then((response) =>response.json())
       .then((json) => {
-        console.log('PrimaryInstructorImage: ', json);
         setPrimaryInstructorImage(json.primaryInstructor);
       })
       .catch((err) => { if (err) { console.error(err); } });
     fetch(`http://localhost:3006/api/image/${courseNumber}/additionalInstructors`)
       .then((response) =>response.json())
       .then((json) => {
-        console.log('additionalInstructorImages: ', json);
         setAdditionalInstructorImages(json.additionalInstructors);
       })
       .catch((err) => { if (err) { console.error(err); } });
