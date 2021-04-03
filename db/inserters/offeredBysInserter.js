@@ -1,14 +1,15 @@
+/* eslint-disable no-unused-vars */
 const mongoose = require('mongoose');
 const offeredBysData = require('../data/offeredBys.json');
-const offeredBysModel = require('../models/offeredBysModel.js');
+const { OfferedBys } = require('../models.js');
 
-let offeredBysInsert = () => {
-  offeredBysModel.insertMany(offeredBysData, (err) => {
+const offeredBysInsert = () => {
+  OfferedBys.insertMany(offeredBysData, (err) => {
     if (err) {
       console.error(err);
     }
     console.log('offeredBysInsert success');
-    mongoose.connection.close();
+    // mongoose.connection.close();
   });
 };
 

@@ -3,7 +3,6 @@ const instructorsSchema = require('./schemas/instructorsSchema.js');
 const testimonialsSchema = require('./schemas/testimonialsSchema.js');
 const offeredBysSchema = require('./schemas/offeredBysSchema.js');
 
-
 mongoose.connect('mongodb://127.0.0.1/instructors', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
