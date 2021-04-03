@@ -36,7 +36,7 @@ let generateInstructors = () => {
   //creates 100 instructors
   const createInstructors = () => {
     for (let id = 1; id <= 100; id++) {
-      console.log('Instructors generating data for course ', id);
+      // console.log('Instructors generating data for course ', id);
       let bool;
       let random = Math.random();
       let rating = random;

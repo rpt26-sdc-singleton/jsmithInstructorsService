@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 const mongoose = require('mongoose');
 const offeredBysData = require('../data/offeredBys.json');
-const OfferedBysModel = require('../models/offeredBysModel.js');
+const { OfferedBysModel } = require('../models.js');
 
 const offeredBysInsert = () => {
   OfferedBysModel.insertMany(offeredBysData, (err) => {
@@ -9,7 +9,6 @@ const offeredBysInsert = () => {
       console.error(err);
     }
     console.log('offeredBysInsert success');
-    mongoose.connection.close();
   });
 };
 

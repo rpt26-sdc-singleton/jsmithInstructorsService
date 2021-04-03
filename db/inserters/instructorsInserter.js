@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 const mongoose = require('mongoose');
 const instructorsData = require('../data/instructors.json');
-const InstructorsModel = require('../models/instructorsModel.js');
+const { InstructorsModel } = require('../models.js');
 
 const instructorsInsert = () => {
   InstructorsModel.insertMany(instructorsData, (err) => {
