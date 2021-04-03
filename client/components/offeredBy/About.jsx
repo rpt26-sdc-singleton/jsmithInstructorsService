@@ -1,10 +1,9 @@
 import React from 'react';
-import OfferedByConsumer from './OfferedBy.jsx';
 
-const About = () => (
-  <OfferedByConsumer>
-    {value => offeredByData.offeredByDescription}
-  </OfferedByConsumer>
+const About = (props) => (
+  <div className="offered-by-description">
+    {props.offeredByData.offeredByDescription}
+  </div>
 );
 
 export default About;

@@ -16,6 +16,6 @@ const instructorsSchema = new Schema({
   }],
   instructorAverageRating: String,
   numberOfRatings: Number
-});
+}, { bufferCommands: false });
 
 module.exports = instructorsSchema;

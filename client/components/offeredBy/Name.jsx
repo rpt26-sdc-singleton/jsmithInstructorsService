@@ -1,13 +1,9 @@
 import React from 'react';
-import OfferedByConsumer from './OfferedBy.jsx';
 
-const Name = () => (
-  <OfferedByConsumer>
-    {(value) => {
-      console.log(offeredByData.offeredByName);
-      // offeredByData.offeredByName;
-    }}
-  </OfferedByConsumer>
+const Name = (props) => (
+  <div className="offered-by-name">
+    {props.offeredByData.offeredByName}
+  </div>
 );
 
 export default Name;

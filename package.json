@@ -15,8 +15,9 @@
     "insertOfferedBys": "node ./db/inserters/offeredBysInserter.js",
     "insertTestimonials": "node ./db/inserters/testimonialsInserter.js",
     "generate": "npm run generateInstructors && npm run generateOfferedBys && npm run generateTestimonials",
-    "test": "jest",
     "insert": "npm run insertInstructors && npm run insertOfferedBys && npm run insertTestimonials",
+    "seed": "npm run generate && npm run insert",
+    "test": "jest",
     "start": "nodemon server/index.js",
     "react-dev": "webpack --watch",
     "build": "webpack"

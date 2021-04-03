@@ -1,10 +1,9 @@
 import React from 'react';
-import OfferedByConsumer from './OfferedBy.jsx';
 
 const Title = () => (
-  <OfferedByConsumer>
+  <div>
     {value => imagesData.offeredByMain}
-  </OfferedByConsumer>
+  </div>
 );
 
 export default Title;

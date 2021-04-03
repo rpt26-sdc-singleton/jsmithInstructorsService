@@ -12,9 +12,9 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 app.use(cors());
 
-app.get('/:courseNumber', (req, res) => {
-  res.sendFile(path.resolve('./public/index.html'));
-});
+// app.get('/:courseNumber', (req, res) => {
+//   res.sendFile(path.resolve('./public/index.html'));
+// });
 
 //returns all instructors documents
 app.get('/api/allinstructors', (req, res) => {

@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
-const instructorsSchema = require('./schemas/instructorsSchema');
-const offeredBysSchema = require('./schemas/offeredBysSchema');
-const testimonialsSchema = require('./schemas/testimonialsSchema');
-const Instructors = require('./models/instructorsModel');
-const OfferedBys = require('./models/offeredBysModel');
-const Testimonials = require('./models/testimonialsModel');
+// const instructorsSchema = require('./schemas/instructorsSchema');
+// const offeredBysSchema = require('./schemas/offeredBysSchema');
+// const testimonialsSchema = require('./schemas/testimonialsSchema');
+const { Instructors, OfferedBys, Testimonials } = require('./models.js');
+// const OfferedBys = require('./models/offeredBysModel');
+// const Testimonials = require('./models/testimonialsModel');
 
 const imagesPort = process.env.IMAGES_PORT;
 
@@ -42,7 +42,7 @@ findPrimaryInstructor = (courseNumber, cb) => {
   Instructors.findOne(options)
     .then((dbResponse) => {
       cb(dbResponse);
-      mongoose.connection.close();
+      // mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -73,7 +73,7 @@ findOfferedBy = (courseNumber, cb) => {
   OfferedBys.find(options)
     .then((dbResponse) => {
       cb(dbResponse);
-      mongoose.connection.close();
+      // mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -96,7 +96,7 @@ findTestimonials = (courseNumber, cb) => {
       let output = [];
       testimonialsIndexes.forEach((index) => output.push(dbResponse[index]));
       cb(output);
-      mongoose.connection.close();
+      // mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
