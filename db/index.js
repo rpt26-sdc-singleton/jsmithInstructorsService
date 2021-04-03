@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
 const mongoose = require('mongoose');
 const InstructorsModel = require('./models/instructorsModel.js');
