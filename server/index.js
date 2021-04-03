@@ -1,13 +1,31 @@
 const express = require('express');
 const db = require('../db/index.js');
 const bodyParser = require('body-parser');
+const path = require('path');
+const cors = require('cors');
 
 const app = express();
 const port = 3003;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(express.static(__dirname + '/../client/dist'));
+app.use(express.static('public'));
+app.use(cors());
+
+// app.get('/:courseNumber', (req, res) => {
+//   res.sendFile(path.resolve('./public/index.html'));
+// });
+
+//returns all instructors documents
+app.get('/api/allinstructors', (req, res) => {
+  db.findAllInstructors((err, dbResponse) => {
+    if (err) {
+      res.send(err).status(400);
+    } else {
+      res.send(dbResponse);
+    }
+  });
+});
 
 //returns an array of instructors that belong to a course
 app.get('/api/instructors/:courseNumber', (req, res) => {
@@ -20,6 +38,17 @@ app.get('/api/instructors/:courseNumber', (req, res) => {
 app.get('/api/primaryInstructor/:courseNumber', (req, res) => {
   db.findPrimaryInstructor(parseInt(req.params.courseNumber), (dbResponse) => {
     res.send(dbResponse);
+  });
+});
+
+//returns all offeredBy documents for all courses
+app.get('/api/offeredByAll', (req, res) => {
+  db.findAllOfferedBys((err, dbResponse) => {
+    if (err) {
+      res.send(err).status(400);
+    } else {
+      res.send(dbResponse);
+    }
   });
 });
 

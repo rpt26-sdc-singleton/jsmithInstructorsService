@@ -1,32 +1,33 @@
 const mongoose = require('mongoose');
-const instructorsSchema = require('./schemas/instructorsSchema');
-const offeredBysSchema = require('./schemas/offeredBysSchema');
-const testimonialsSchema = require('./schemas/testimonialsSchema');
-const Instructors = require('./models/instructorsModel');
-const OfferedBys = require('./models/offeredBysModel');
-const Testimonials = require('./models/testimonialsModel');
+// const instructorsSchema = require('./schemas/instructorsSchema');
+// const offeredBysSchema = require('./schemas/offeredBysSchema');
+// const testimonialsSchema = require('./schemas/testimonialsSchema');
+const { Instructors, OfferedBys, Testimonials } = require('./models.js');
+// const OfferedBys = require('./models/offeredBysModel');
+// const Testimonials = require('./models/testimonialsModel');
 
+const imagesPort = process.env.IMAGES_PORT;
 
-mongoose.connect('mongodb://localhost/instructors', { useNewUrlParser: true, useUnifiedTopology: true });
-const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', () => {
-  console.log('db connection opened');
-});
+//returns all instructors for all courses
+findAllInstructors = (cb) => {
+  Instructors.find()
+    .then((dbResponse) => {
+      cb(null, dbResponse);
+    })
+    .catch((err) => {
+      if (err) {
+        console.error('Error in findAllInstructors DB method: ', err);
+        cb(err);
+      }
+    });
+};
 
-//refactor to use one Model
-// const Instructors = mongoose.model('instructors', instructorsSchema);
-// const OfferedBys = mongoose.model('offeredbys', offeredBysSchema);
-// const Testimonials = mongoose.model('testimonials', testimonialsSchema);
-const imagesPort = 3006;
-
-//returns an array of instructors that belong to a course
+//returns all instructors for a course
 findInstructors = (courseNumber, cb) => {
   let options = {courses: {$elemMatch: { courseNumber }}};
   Instructors.find(options)
     .then((dbResponse) => {
       cb(dbResponse);
-      mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -41,11 +42,26 @@ findPrimaryInstructor = (courseNumber, cb) => {
   Instructors.findOne(options)
     .then((dbResponse) => {
       cb(dbResponse);
-      mongoose.connection.close();
+      // mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
         console.error('Error in findPrimaryInstructor DB method: ', err);
+      }
+    });
+};
+
+//returns all offeredBy documents for all courses
+
+findAllOfferedBys = (cb) => {
+  OfferedBys.find()
+    .then((dbResponse) => {
+      cb(null, dbResponse);
+    })
+    .catch((err) => {
+      if (err) {
+        console.error(err);
+        cb(err);
       }
     });
 };
@@ -57,7 +73,7 @@ findOfferedBy = (courseNumber, cb) => {
   OfferedBys.find(options)
     .then((dbResponse) => {
       cb(dbResponse);
-      mongoose.connection.close();
+      // mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -80,7 +96,7 @@ findTestimonials = (courseNumber, cb) => {
       let output = [];
       testimonialsIndexes.forEach((index) => output.push(dbResponse[index]));
       cb(output);
-      mongoose.connection.close();
+      // mongoose.connection.close();
     })
     .catch((err) => {
       if (err) {
@@ -89,4 +105,4 @@ findTestimonials = (courseNumber, cb) => {
     });
 };
 
-module.exports = { findInstructors, findPrimaryInstructor, findOfferedBy, findTestimonials };
+module.exports = { findAllInstructors, findInstructors, findPrimaryInstructor, findOfferedBy, findTestimonials, findAllOfferedBys };

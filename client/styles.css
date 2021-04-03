@@ -1,0 +1,113 @@
+.instructors {
+  color: #363b42;
+  background-color: white;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.instructor-label {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(55, 58, 60);
+}
+
+.instructors-rating {
+  color: rgb(110, 110, 110);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: .25px;
+}
+
+.instructors-svg {
+  fill: rgb(247, 187, 86);
+  height: 20px;
+  width: 20px;
+  margin-bottom: -9px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.instructors-infoSVG {
+  margin-bottom: -15px;
+  margin-left: 7px;
+}
+
+.instructor-image {
+  max-width: 112px;
+  max-height: 112px;
+  width: 112px;
+  border-radius: 50%;
+}
+
+.instructor-name {
+  font-size: 18px;
+}
+
+.instructor-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.instructor-org {
+  font-size: 12px;
+  color: rgb(147, 109, 72);
+  font-weight: 500;
+}
+
+.instructor-learnersSVG {
+  margin-top: 5px;
+  margin-left: 7px;
+  fill: rgb(140, 144, 148);
+  display: block;
+  transform: scale(-1,1);
+}
+.instructor-coursesSVG {
+  margin-top: 5px;
+  margin-left: 7px;
+  fill: rgb(140, 144, 148);
+  display: block;
+  transform: scale(-1,1);
+}
+
+.instructor-learners {
+  display: grid;
+  grid-template-columns: 35px 100px;
+  font-size: 12px;
+  margin-left: -10px;
+  margin-bottom: -8px;
+}
+
+.instructor-courses {
+  display: grid;
+  grid-template-columns: 35px 150px;;
+  font-size: 12px;
+  margin-left: -10px;
+
+}
+
+.instructor-grid {
+  display: grid;
+
+  grid-template-rows: 155px;
+}
+
+#instructor-grid-large {
+  grid-template-columns: 50% 50%;
+}
+
+#instructor-grid-small {
+  grid-template-columns: 100%;
+}
+
+.instructor {
+  margin-top: 15px;
+
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 140px 260px;
+}

@@ -6,6 +6,6 @@ const offeredBysSchema = new Schema({
   offeredByIndex: Number,
   offeredByName: String,
   offeredByDescription: String
-});
+}, { bufferCommands: false });
 
 module.exports = offeredBysSchema;

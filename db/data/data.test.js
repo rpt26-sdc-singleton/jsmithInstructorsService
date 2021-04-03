@@ -59,7 +59,8 @@ describe('instructors database has been seeded', () => {
   test('instructors table should have instructors data', () => {
     let jsonData;
     for (let i = 0; i < instructorsData.length; i++) {
-      if (instructorsData[i].courses[0]?.courseNumber === 1) {
+      //
+      if (instructorsData[i].courses && instructorsData[i].courses[0] && instructorsData[i].courses[0].courseNumber === 1) {
         jsonData = instructorsData[i];
         break;
       }
