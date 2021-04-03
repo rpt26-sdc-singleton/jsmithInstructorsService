@@ -5,6 +5,6 @@
  *   https://github.com/reactorcore/eslint-config-hackreactor
  */
 
-// module.exports = {
-//   extends: 'airbnb',
-// };
+module.exports = {
+  extends: 'airbnb',
+};
