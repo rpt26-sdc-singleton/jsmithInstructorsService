@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const { Schema } = mongoose;
 
 const instructorsSchema = new Schema({
@@ -12,10 +13,10 @@ const instructorsSchema = new Schema({
   learners: Number,
   courses: [{
     courseNumber: Number,
-    isPrimaryInstructor: Boolean
+    isPrimaryInstructor: Boolean,
   }],
   instructorAverageRating: String,
-  numberOfRatings: Number
-}, { bufferCommands: false });
+  numberOfRatings: Number,
+});
 
 module.exports = instructorsSchema;
