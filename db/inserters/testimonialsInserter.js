@@ -1,9 +1,10 @@
+/* eslint-disable no-console */
 const mongoose = require('mongoose');
 const testimonialsData = require('../data/testimonials.json');
-const { Testimonials } = require('../models.js');
+const TestimonialsModel = require('../models/testimonialsModel.js');
 
 const testimonialsInsert = () => {
-  Testimonials.insertMany(testimonialsData, (err) => {
+  TestimonialsModel.insertMany(testimonialsData, (err) => {
     if (err) {
       console.error(err);
     }

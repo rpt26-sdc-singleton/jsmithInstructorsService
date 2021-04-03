@@ -1,15 +1,15 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-console */
 const mongoose = require('mongoose');
 const instructorsData = require('../data/instructors.json');
-const { Instructors } = require('../models.js');
+const InstructorsModel = require('../models/instructorsModel.js');
 
 const instructorsInsert = () => {
-  Instructors.insertMany(instructorsData, (err) => {
+  InstructorsModel.insertMany(instructorsData, (err) => {
     if (err) {
       console.error(err);
     }
     console.log('instructorsInsert success');
-    // mongoose.connection.close();
+    mongoose.connection.close();
   });
 };
 

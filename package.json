@@ -18,7 +18,7 @@
     "insert": "npm run insertInstructors && npm run insertOfferedBys && npm run insertTestimonials",
     "seed": "npm run generate && npm run insert",
     "test": "jest",
-    "start": "nodemon server/index.js",
+    "start": "node server/index.js",
     "react-dev": "webpack --watch",
     "build": "webpack"
   },

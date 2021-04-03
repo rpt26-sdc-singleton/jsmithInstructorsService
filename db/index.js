@@ -1,15 +1,12 @@
 /* eslint-disable no-unused-vars */
 const mongoose = require('mongoose');
-// const instructorsSchema = require('./schemas/instructorsSchema');
-// const offeredBysSchema = require('./schemas/offeredBysSchema');
-// const testimonialsSchema = require('./schemas/testimonialsSchema');
-const { Instructors, OfferedBys, Testimonials } = require('./models.js');
-// const OfferedBys = require('./models/offeredBysModel');
-// const Testimonials = require('./models/testimonialsModel');
+const InstructorsModel = require('./models/instructorsModel.js');
+const OfferedBysModel = require('./models/offeredBysModel.js');
+const TestimonialsModel = require('./models/testimonialsModel.js');
 
 // returns all instructors for all courses
 const findAllInstructors = (cb) => {
-  Instructors.find()
+  InstructorsModel.find()
     .then((dbResponse) => {
       cb(null, dbResponse);
     })
@@ -24,7 +21,7 @@ const findAllInstructors = (cb) => {
 // returns all instructors for a course
 const findInstructors = (courseNumber, cb) => {
   const options = { courses: { $elemMatch: { courseNumber } } };
-  Instructors.find(options)
+  InstructorsModel.find(options)
     .then((dbResponse) => {
       cb(dbResponse);
     })
@@ -38,7 +35,7 @@ const findInstructors = (courseNumber, cb) => {
 // returns the primary instructor for a course
 const findPrimaryInstructor = (courseNumber, cb) => {
   const options = { courses: { $elemMatch: { courseNumber, isPrimaryInstructor: true } } };
-  Instructors.findOne(options)
+  InstructorsModel.findOne(options)
     .then((dbResponse) => {
       cb(dbResponse);
       // mongoose.connection.close();
@@ -52,8 +49,8 @@ const findPrimaryInstructor = (courseNumber, cb) => {
 
 // returns all offeredBy documents for all courses
 
-const findAllOfferedBys = (cb) => {
-  OfferedBys.find()
+const findAllOfferedBysModel = (cb) => {
+  OfferedBysModel.find()
     .then((dbResponse) => {
       cb(null, dbResponse);
     })
@@ -69,7 +66,7 @@ const findAllOfferedBys = (cb) => {
 const findOfferedBy = (courseNumber, cb) => {
   const options = { id: courseNumber };
 
-  OfferedBys.find(options)
+  OfferedBysModel.find(options)
     .then((dbResponse) => {
       cb(dbResponse);
       // mongoose.connection.close();
@@ -82,7 +79,7 @@ const findOfferedBy = (courseNumber, cb) => {
 };
 
 // returns three random testimonials
-const findTestimonials = (courseNumber, cb) => {
+const findTestimonialsModel = (courseNumber, cb) => {
   const testimonialsIndexes = [];
   while (testimonialsIndexes.length < 3) {
     const random = Math.floor(Math.random() * 9);
@@ -90,7 +87,7 @@ const findTestimonials = (courseNumber, cb) => {
       testimonialsIndexes.push(random);
     }
   }
-  Testimonials.find()
+  TestimonialsModel.find()
     .then((dbResponse) => {
       const output = [];
       testimonialsIndexes.forEach((index) => output.push(dbResponse[index]));
@@ -99,7 +96,7 @@ const findTestimonials = (courseNumber, cb) => {
     })
     .catch((err) => {
       if (err) {
-        console.error('Error in findTestimonials DB method: ', err);
+        console.error('Error in findTestimonialsModel DB method: ', err);
       }
     });
 };
@@ -109,6 +106,6 @@ module.exports = {
   findInstructors,
   findPrimaryInstructor,
   findOfferedBy,
-  findTestimonials,
-  findAllOfferedBys,
+  findTestimonialsModel,
+  findAllOfferedBysModel,
 };
