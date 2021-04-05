@@ -43,16 +43,12 @@ const Instructors = () => {
     fetch(`http://${imagesUrl}:3006/api/image/${courseNumber}/primaryInstructor`)
       .then((response) => response.json())
       .then((json) => {
-        debugger;
-        console.log('json primaryInstructor: ', json);
         setPrimaryInstructorImage(json.primaryInstructor);
       })
       .catch((err) => { if (err) { console.error(err); } });
     fetch(`http://${imagesUrl}:3006/api/image/${courseNumber}/additionalInstructors`)
       .then((response) => response.json())
       .then((json) => {
-        debugger;
-        console.log('json additionalInstructors: ', json);
         setAdditionalInstructorImages(json.additionalInstructors);
       })
       .catch((err) => { if (err) { console.error(err); } });
