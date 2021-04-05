@@ -108,5 +108,5 @@ module.exports = {
   findPrimaryInstructor,
   findOfferedBy,
   findTestimonialsModel,
-  findAllOfferedBysModel,
+  findAllOfferedBys,
 };
