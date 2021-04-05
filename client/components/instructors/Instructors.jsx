@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 import initialState from './initialState';
 import Instructor from './Instructor.jsx';
 
-const instructorsUrl = '127.0.0.1';
+const instructorsUrl = '54.176.19.199';
 const imagesUrl = '54.176.19.199';
 
 const Instructors = () => {
