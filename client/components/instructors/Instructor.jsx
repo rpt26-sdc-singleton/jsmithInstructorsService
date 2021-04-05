@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from 'react';
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable import/extensions */
+/* eslint-disable react/prop-types */
+import React from 'react';
 import Details from './Details.jsx';
 import Image from './Image.jsx';
 
-const Instructor = (props) => {
-  return (
-    <div className="instructor">
-      <Image image={props.image} />
-      <Details instructor={props.instructor} svgs={props.svgs} />
-    </div>
-  );
-};
+const Instructor = (props) => (
+  <div className="instructor">
+    <Image image={props.image} />
+    <Details instructor={props.instructor} svgs={props.svgs} />
+  </div>
+);
 
 export default Instructor;

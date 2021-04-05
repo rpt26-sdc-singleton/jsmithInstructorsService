@@ -50,7 +50,7 @@ const findPrimaryInstructor = (courseNumber, cb) => {
 
 // returns all offeredBy documents for all courses
 
-const findAllOfferedBysModel = (cb) => {
+const findAllOfferedBys = (cb) => {
   OfferedBysModel.find()
     .then((dbResponse) => {
       cb(null, dbResponse);
