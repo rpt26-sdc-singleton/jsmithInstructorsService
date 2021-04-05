@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
 const mongoose = require('mongoose');
-const InstructorsModel = require('./models.js');
-const OfferedBysModel = require('./models.js');
-const TestimonialsModel = require('./models.js');
+const { InstructorsModel } = require('./models.js');
+const { OfferedBysModel } = require('./models.js');
+const { TestimonialsModel } = require('./models.js');
 
 // returns all instructors for all courses
 const findAllInstructors = (cb) => {
