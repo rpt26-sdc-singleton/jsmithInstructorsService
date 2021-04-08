@@ -23,21 +23,16 @@
 ## Usage
 > npm install
 
-> Generate data with "npm run generate"
+Ensure database is running and address and port are correct in ./.env
 
-> (optional)Test generated data with "npm run test"
-
-> Insert data to database with "npm run insert"
+> npm run seed
 
 ## Requirements
 
->Instructors relies on Images services for data
+Instructors relies on Images service for data
 
->OfferedBys relies on ... services for data
+Ensure URL's are correct in ./client/components/instructors/instructors.jsx for instructors service to render images properly.
 
->Testimonials relies on ... services for data
-
-<span style="color:red">TODO: Jest returns two errors, but the tests still run properly </span>
 
 ## Development
 
