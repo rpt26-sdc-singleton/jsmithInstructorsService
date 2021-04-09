@@ -10,7 +10,8 @@ const port = 3003;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(express.static('public'));
+
+app.use(express.static(path.join(__dirname, '../public')));
 app.use(cors());
 
 app.get('/:courseNumber', (req, res) => {
@@ -70,3 +71,4 @@ app.get('/api/testimonials/:courseNumber', (req, res) => {
 app.listen(port, () => {
   console.log(`Instructors service listening at http://localhost:${port}`);
 });
+
