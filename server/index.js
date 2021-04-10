@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable radix */
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -71,4 +72,3 @@ app.get('/api/testimonials/:courseNumber', (req, res) => {
 app.listen(port, () => {
   console.log(`Instructors service listening at http://localhost:${port}`);
 });
-
