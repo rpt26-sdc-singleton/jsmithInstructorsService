@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use(cors());
 
 app.get('/:courseNumber', (req, res) => {
-  res.sendFile(path.resolve('./public/index.html'));
+  res.sendFile(path.resolve(__dirname, '../public/index.html'));
 });
 
 // returns all instructors documents
