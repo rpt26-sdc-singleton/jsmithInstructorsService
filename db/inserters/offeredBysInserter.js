@@ -9,6 +9,7 @@ const offeredBysInsert = () => {
       console.error(err);
     }
     console.log('offeredBysInsert success');
+    mongoose.connection.close();
   });
 };
 
