@@ -6,7 +6,7 @@ import Details from './Details.jsx';
 import Image from './Image.jsx';
 
 const Instructor = (props) => (
-  <div className="instructor">
+  <div className="actual-instructor">
     <Image image={props.image} />
     <Details instructor={props.instructor} svgs={props.svgs} />
   </div>

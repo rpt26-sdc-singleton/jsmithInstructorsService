@@ -1,3 +1,6 @@
+/* eslint-disable react/self-closing-comp */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
 import React from 'react';
 
 const Details = (props) => {
