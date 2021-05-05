@@ -1,7 +1,10 @@
 /* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
 const mongoose = require('mongoose');
-const { InstructorsModel, OfferedBysModel, TestimonialsModel } = require('./models.js');
+const { InstructorsModel, OfferedBysModel, TestimonialsModel } = require('./models');
+const instructorsCrud = require('./crud/instructors')(InstructorsModel);
+const offeredBysCrud = require('./crud/offeredbys')(OfferedBysModel);
+const testimonialsCrud = require('./crud/testimonials')(TestimonialsModel);
 
 const dbCb = (method, cb, options) => (db, model) => {
   model[method](options)
@@ -55,4 +58,7 @@ module.exports = {
   findOfferedBy,
   threeRandomTestimonials,
   findAllOfferedBys,
+  ...instructorsCrud,
+  ...offeredBysCrud,
+  ...testimonialsCrud,
 };

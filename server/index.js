@@ -36,8 +36,8 @@ app.get('/api/offeredBy/:courseNumber', (req, res) => db.findOfferedBy(parseInt(
 app.get('/api/testimonials/:courseNumber', (req, res) => db.threeRandomTestimonials(parseInt(req.params.courseNumber), (dbResponse) => res.send(dbResponse)));
 
 // crud routes defined separately
-require('./crud/instructor.js')(app);
-require('./crud/offeredby.js')(app);
-require('./crud/testimonial.js')(app);
+require('./crud/instructor.js')(app, db);
+require('./crud/offeredby.js')(app, db);
+require('./crud/testimonial.js')(app, db);
 
 app.listen(port, () => console.log(`Instructors service listening at http://localhost:${port}`));
