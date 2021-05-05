@@ -1,6 +1,8 @@
+const create = require('./create');
+
 function offeredBys(model) {
   return {
-    createOfferedBy: model,
+    createOfferedBy: (offeredBy) => create(model, offeredBy),
   };
 }
 

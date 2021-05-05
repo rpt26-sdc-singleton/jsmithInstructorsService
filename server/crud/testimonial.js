@@ -5,7 +5,7 @@ function testimonial(app, db) {
     console.log(req.path);
     console.log(req.params);
     console.log(req.body);
-    res.sendStatus(501);
+    db.readTestimonial(req.params.id, (record) => res.send(record));
   });
 
   // create testimonial
