@@ -1,6 +1,6 @@
 function offeredBys(model) {
   return {
-    createInstructor: model,
+    createOfferedBy: model,
   };
 }
 
