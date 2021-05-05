@@ -4,9 +4,8 @@ const { Schema } = mongoose;
 
 const offeredBysSchema = new Schema({
   id: Number,
-  offeredByIndex: Number,
-  offeredByName: String,
-  offeredByDescription: String,
+  name: String,
+  description: String,
 });
 
 module.exports = offeredBysSchema;
