@@ -64,7 +64,7 @@ app.get('/api/offeredBy/:courseNumber', (req, res) => {
 
 // returns three random testimonials
 app.get('/api/testimonials/:courseNumber', (req, res) => {
-  db.findTestimonials(parseInt(req.params.courseNumber), (dbResponse) => {
+  db.threeRandomTestimonials(parseInt(req.params.courseNumber), (dbResponse) => {
     res.send(dbResponse);
   });
 });

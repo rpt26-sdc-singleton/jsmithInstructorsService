@@ -8,11 +8,11 @@ const testimonialsModel = require('../models/testimonialsModel.js');
 
 const db = require('../index.js');
 
-//data needs to be generated prior to running test
+// data needs to be generated prior to running test
 describe('instructorsGenerator outputs data in the proper format', () => {
   test('instructorsData should be an object with the correct properties', () => {
-    let academicTitle = instructorsData[0].academicTitle;
-    let acceptableTitles = ['Instructor', 'Associate Professor', 'Professor', 'PhD'];
+    const { academicTitle } = instructorsData[0];
+    const acceptableTitles = ['Instructor', 'Associate Professor', 'Professor', 'PhD'];
 
     expect(typeof instructorsData).toBe('object');
     expect(typeof instructorsData[0].id).toBe('number');
@@ -32,7 +32,7 @@ describe('instructorsGenerator outputs data in the proper format', () => {
 
 describe('offeredBysGenerator outputs data in the proper format', () => {
   test('offeredBysData should be an object with the correct properties', () => {
-    let offeredByNames = ['DeepLearning.AI', 'Erasmus University Rotterdam', 'IBM', 'University of Illinois at Urbana-Champaign', 'University of Pennsylvania', 'University of Virginia'];
+    const offeredByNames = ['DeepLearning.AI', 'Erasmus University Rotterdam', 'IBM', 'University of Illinois at Urbana-Champaign', 'University of Pennsylvania', 'University of Virginia'];
     expect(typeof offeredBysData).toBe('object');
     expect(typeof offeredBysData[0]).toBe('object');
     expect(typeof offeredBysData[0].id).toBe('number');
