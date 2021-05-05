@@ -9,11 +9,11 @@ dotenv.config();
 
 const MONGO_HOSTNAME = process.env.MONGO_HOSTNAME || 'localhost';
 const MONGO_PORT = process.env.MONGO_PORT || 27017;
-const MONGO_DB_INSTRUCTORS = process.env.MONGO_DB_INSTRUCTORS || 'instructors';
-const MONGO_DB_OFFEREDBYS = process.env.MONGO_DB_OFFEREDBYS || 'offeredbys';
-const MONGO_DB_TESTIMONIALS = process.env.MONGO_DB_TESTIMONIALS || 'testimonials';
+const INSTRUCTORS = process.env.MONGO_DB_INSTRUCTORS || 'instructors';
+const OFFEREDBYS = process.env.MONGO_DB_OFFEREDBYS || 'offeredbys';
+const TESTIMONIALS = process.env.MONGO_DB_TESTIMONIALS || 'testimonials';
 
-const createNewConnection = (name) => {
+const createNewConnection = (name, schema, cb) => {
   const db = mongoose.createConnection(`mongodb://${MONGO_HOSTNAME}:${MONGO_PORT}/${name}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -26,6 +26,7 @@ const createNewConnection = (name) => {
 
   db.on('connected', () => {
     console.log(`MongoDB :: connected ${name}`);
+    cb(db, db.model(name, schema));
   });
 
   db.on('disconnected', () => {
@@ -35,12 +36,9 @@ const createNewConnection = (name) => {
   return db;
 };
 
-const InstructorsModel = createNewConnection(MONGO_DB_INSTRUCTORS)
-  .model(MONGO_DB_INSTRUCTORS, instructorsSchema);
-const OfferedBysModel = createNewConnection(MONGO_DB_OFFEREDBYS)
-  .model(MONGO_DB_OFFEREDBYS, offeredBysSchema);
-const TestimonialsModel = createNewConnection(MONGO_DB_TESTIMONIALS)
-  .model(MONGO_DB_TESTIMONIALS, testimonialsSchema);
+const InstructorsModel = (cb) => createNewConnection(INSTRUCTORS, instructorsSchema, cb);
+const OfferedBysModel = (cb) => createNewConnection(OFFEREDBYS, offeredBysSchema, cb);
+const TestimonialsModel = (cb) => createNewConnection(TESTIMONIALS, testimonialsSchema, cb);
 
 module.exports.InstructorsModel = InstructorsModel;
 module.exports.OfferedBysModel = OfferedBysModel;

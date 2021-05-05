@@ -1,17 +1,17 @@
 /* eslint-disable no-console */
-const mongoose = require('mongoose');
 const testimonialsData = require('../data/testimonials.json');
-const db = require('../models.js');
+const { TestimonialsModel } = require('../models.js');
 
 const testimonialsInsert = () => {
-  db.TestimonialsModel.insertMany(testimonialsData, (err) => {
-    if (err) {
-      console.error(err);
-    }
-    console.log('testimonialsInsert success');
-    mongoose.connection.close();
-  });
+  const cb = (db, model) => {
+    model.insertMany(testimonialsData)
+      .then(() => {
+        db.close();
+        console.log('inserted testimonials');
+      });
+  };
+
+  TestimonialsModel(cb);
 };
 
 testimonialsInsert();
-module.exports.testimonialsInsert = testimonialsInsert;

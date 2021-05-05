@@ -1,16 +1,17 @@
 /* eslint-disable no-console */
-const mongoose = require('mongoose');
 const instructorsData = require('../data/instructors.json');
 const { InstructorsModel } = require('../models.js');
 
 const instructorsInsert = () => {
-  InstructorsModel.insertMany(instructorsData, (err) => {
-    if (err) {
-      console.error(err);
-    }
-    console.log('instructorsInsert success');
-    mongoose.connection.close();
-  });
+  const cb = (db, model) => {
+    model.insertMany(instructorsData)
+      .then(() => {
+        db.close();
+        console.log('inserted instructors');
+      });
+  };
+
+  InstructorsModel(cb);
 };
 
 instructorsInsert();
