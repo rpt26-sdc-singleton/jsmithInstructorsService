@@ -3,98 +3,27 @@
 const mongoose = require('mongoose');
 const { InstructorsModel, OfferedBysModel, TestimonialsModel } = require('./models.js');
 
-// returns all instructors for all courses
-const findAllInstructors = (cb) => {
-  const dbCb = (db, model) => {
-    model.find()
-      .then((r) => {
-        cb(null, r);
-      })
-      .catch((err) => {
-        console.error('error in findAllInstructors in db/index.js');
-        console.error(err);
-        cb(err);
-      })
-      .finally(() => db.close());
-  };
-
-  InstructorsModel(dbCb);
+const dbCb = (method, cb, options) => (db, model) => {
+  model[method](options)
+    .then((r) => cb(r))
+    .catch((err) => console.error(err))
+    .finally(() => db.close());
 };
+
+// returns all instructors for all courses
+const findAllInstructors = (cb) => InstructorsModel(dbCb('find', cb));
 
 // returns all instructors for a course
-const findInstructors = (courseNumber, cb) => {
-  const options = { courses: { $elemMatch: { courseNumber } } };
-  const dbCb = (db, model) => {
-    model.find(options)
-      .then((r) => {
-        cb(r);
-      })
-      .catch((err) => {
-        console.error('error in findInstructors in db/index.js');
-        console.error(err);
-      })
-      .finally(() => db.close());
-  };
-
-  InstructorsModel(dbCb);
-};
+const findInstructors = (courseNumber, cb) => InstructorsModel(dbCb('find', cb, { courses: { $elemMatch: { courseNumber } } }));
 
 // returns the primary instructor for a course
-const findPrimaryInstructor = (courseNumber, cb) => {
-  const options = { courses: { $elemMatch: { courseNumber, isPrimaryInstructor: true } } };
-
-  const dbCb = (db, model) => {
-    model.findOne(options)
-      .then((r) => {
-        cb(r);
-      })
-      .catch((err) => {
-        console.error('error in findPrimaryInstructor in db/index.js');
-        console.error(err);
-      })
-      .finally(() => db.close());
-  };
-
-  InstructorsModel(dbCb);
-};
+const findPrimaryInstructor = (courseNumber, cb) => InstructorsModel(dbCb('findOne', cb, { courses: { $elemMatch: { courseNumber, isPrimaryInstructor: true } } }));
 
 // returns all offeredBy documents for all courses
-
-const findAllOfferedBys = (cb) => {
-  const dbCb = (db, model) => {
-    model.find()
-      .then((r) => {
-        cb(null, r);
-      })
-      .catch((err) => {
-        console.error('error in findAllOfferedBys in db/index.js');
-        console.error(err);
-        cb(err);
-      })
-      .finally(() => db.close());
-  };
-
-  OfferedBysModel(dbCb);
-};
+const findAllOfferedBys = (cb) => OfferedBysModel(dbCb('find', cb));
 
 // returns the offeredBy for a course
-const findOfferedBy = (courseNumber, cb) => {
-  const options = { id: courseNumber };
-
-  const dbCb = (db, model) => {
-    model.find(options)
-      .then((r) => {
-        cb(r);
-      })
-      .catch((err) => {
-        console.error('error in findOfferedBy in db/index.js');
-        console.error(err);
-      })
-      .finally(() => db.close());
-  };
-
-  OfferedBysModel(dbCb);
-};
+const findOfferedBy = (courseNumber, cb) => OfferedBysModel(dbCb('find', cb, { id: courseNumber }));
 
 // returns three random testimonials
 const threeRandomTestimonials = (courseNumber, cb) => {
@@ -106,7 +35,7 @@ const threeRandomTestimonials = (courseNumber, cb) => {
     }
   }
 
-  const dbCb = (db, model) => {
+  TestimonialsModel((db, model) => {
     model.find()
       .then((r) => {
         cb(testimonialsIndexes.map((index) => r[index]));
@@ -116,9 +45,7 @@ const threeRandomTestimonials = (courseNumber, cb) => {
         console.error(err);
       })
       .finally(() => db.close());
-  };
-
-  TestimonialsModel(dbCb);
+  });
 };
 
 module.exports = {
