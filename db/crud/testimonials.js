@@ -5,7 +5,7 @@ const del = require('./delete');
 
 function testimonials(model) {
   return {
-    createTestimonial: (testimonial) => create(model, testimonial),
+    createTestimonial: ({ name, text }) => create(model, { name, testimonialText: text }),
     readTestimonial: (id) => read(model, id),
     updateTestimonial: (id, testimonial) => update(model, id, testimonial),
     deleteTestimonial: (id) => del(model, id),
