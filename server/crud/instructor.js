@@ -2,10 +2,12 @@
 function instructor(app, db) {
   // get instructor by id
   app.get('/api/instructor/:id', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    res.sendStatus(501);
+    db.readInstructor(req.params.id)
+      .then((record) => res.send(record))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(404);
+      });
   });
 
   // create instructor
@@ -56,28 +58,36 @@ function instructor(app, db) {
 }
  */
   app.post('/api/instructor', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    console.warn('I AM NOT CERTAIN WE ARE HITTING THIS ENDPOINT');
-    db.createInstructor(req.body);
-    res.sendStatus(501);
+    db.createInstructor(req.body)
+      .then((id) => res.status(201).json(id))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(500);
+      });
   });
 
   // update instructor
-  app.post('/api/instructor/:id', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    res.sendStatus(501);
+  app.put('/api/instructor/:id', (req, res) => {
+    db.updateInstructor(req.params.id, req.body)
+      .then(() => res.sendStatus(204))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(500);
+        // TODO: differentiate between
+        // the case where there is no existing record (404)
+        // and the case where something else went wrong (500).
+      });
   });
 
   // delete instructor
   app.delete('/api/instructor/:id', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    res.sendStatus(501);
+    db.deleteInstructor(req.params.id)
+      .then(() => res.sendStatus(204))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(500);
+        // TODO: differentiate between 404 and 500 as in update.
+      });
   });
 }
 

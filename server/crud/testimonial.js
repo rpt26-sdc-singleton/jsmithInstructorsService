@@ -2,10 +2,12 @@
 function testimonial(app, db) {
   // get testimonial by id
   app.get('/api/testimonial/:id', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    db.readTestimonial(req.params.id, (record) => res.send(record));
+    db.readTestimonial(req.params.id)
+      .then((record) => res.send(record))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(404);
+      });
   });
 
   // create testimonial
@@ -17,27 +19,36 @@ function testimonial(app, db) {
   }
   */
   app.post('/api/testimonial', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    db.createTestimonial(req.body);
-    res.sendStatus(501);
+    db.createTestimonial(req.body)
+      .then((id) => res.status(201).json(id))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(500);
+      });
   });
 
   // update testimonial
   app.put('/api/testimonial/:id', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    res.sendStatus(501);
+    db.updateTestimonial(req.params.id, req.body)
+      .then(() => res.sendStatus(204))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(500);
+        // TODO: differentiate between
+        // the case where there is no existing record (404)
+        // and the case where something else went wrong (500).
+      });
   });
 
   // delete testimonial
   app.delete('/api/testimonial/:id', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    res.sendStatus(501);
+    db.deleteTestimonial(req.params.id)
+      .then(() => res.sendStatus(204))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(500);
+        // TODO: differentiate between 404 and 500 as in update.
+      });
   });
 }
 

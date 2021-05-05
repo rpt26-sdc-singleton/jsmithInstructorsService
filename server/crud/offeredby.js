@@ -1,35 +1,54 @@
 /* eslint-disable no-console */
-function offeredBy(app) {
+function offeredBy(app, db) {
   // get offeredBy by id
-  app.post('/api/offeredBy/:id', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    res.sendStatus(501);
+  app.get('/api/offeredBy/:id', (req, res) => {
+    db.readOfferedBy(req.params.id)
+      .then((record) => res.send(record))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(404);
+      });
   });
 
   // create offeredBy
+  // expected format:
+  /*
+  {
+    name: string
+    description: string
+  }
+  */
   app.post('/api/offeredBy', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    res.sendStatus(501);
+    db.createOfferedBy(req.body)
+      .then((id) => res.status(201).json(id))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(500);
+      });
   });
 
   // update offeredBy
-  app.post('/api/offeredBy/:id', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    res.sendStatus(501);
+  app.put('/api/offeredBy/:id', (req, res) => {
+    db.updateOfferedBy(req.params.id, req.body)
+      .then(() => res.sendStatus(204))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(500);
+        // TODO: differentiate between
+        // the case where there is no existing record (404)
+        // and the case where something else went wrong (500).
+      });
   });
 
   // delete offeredBy
   app.delete('/api/offeredBy/:id', (req, res) => {
-    console.log(req.path);
-    console.log(req.params);
-    console.log(req.body);
-    res.sendStatus(501);
+    db.deleteOfferedBy(req.params.id)
+      .then(() => res.sendStatus(204))
+      .catch((err) => {
+        console.error(err);
+        res.sendStatus(500);
+        // TODO: differentiate between 404 and 500 as in update.
+      });
   });
 }
 

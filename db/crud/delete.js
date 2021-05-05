@@ -1,7 +1,7 @@
 module.exports = (m, id) => new Promise((resolve, reject) => {
   m((db, model) => {
-    model.find({ id })
-      .then((record) => resolve(record))
+    model.remove({ id })
+      .then(() => resolve())
       .catch((err) => reject(err));
   });
 });
