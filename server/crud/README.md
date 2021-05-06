@@ -8,9 +8,9 @@
 - [update testimonial](#create-testimonial)
 - [update instructor](#create-instructor)
 - [update offeredby](#create-offeredby)
-- [delete testimonial](#read-testimonial)
-- [delete instructor](#read-instructor)
-- [delete offeredby](#read-offeredby)
+- [delete testimonial](#delete-testimonial)
+- [delete instructor](#delete-instructor)
+- [delete offeredby](#delete-offeredby)
 
 # create testimonial
 > - route POST /api/testimonial
