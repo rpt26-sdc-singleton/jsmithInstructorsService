@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createContext } from 'react';
-import initialState from './initialState.js';
+import initialState from './initialState';
 import Title from './Title.jsx';
 import Name from './Name.jsx';
 import About from './About.jsx';

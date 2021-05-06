@@ -30,7 +30,17 @@ app.get('/api/primaryInstructor/:courseNumber', (req, res) => db.findPrimaryInst
 app.get('/api/offeredByAll', (req, res) => db.findAllOfferedBys((dbResponse) => res.send(dbResponse)));
 
 // returns the offeredBy for a course
-app.get('/api/offeredBy/:courseNumber', (req, res) => db.findOfferedBy(parseInt(req.params.courseNumber), (dbResponse) => res.send(dbResponse)));
+app.get('/api/offeredBy/:courseNumber', (req, res) => db.findOfferedBy(parseInt(req.params.courseNumber), (records) => {
+  console.log(req.path);
+  console.log(records);
+  const offeredBy = records.map(({ id, name, description }) => ({
+    id,
+    offeredByIndex: id,
+    offeredByName: name,
+    offeredByDescription: description,
+  }));
+  res.send(offeredBy);
+}));
 
 // returns three random testimonials
 app.get('/api/testimonials/:courseNumber', (req, res) => db.threeRandomTestimonials(parseInt(req.params.courseNumber), (dbResponse) => res.send(dbResponse)));

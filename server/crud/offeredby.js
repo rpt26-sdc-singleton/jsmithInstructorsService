@@ -1,9 +1,12 @@
 /* eslint-disable no-console */
 function offeredBy(app, db) {
   // get offeredBy by id
-  app.get('/api/offeredBy/:id', (req, res) => {
+  app.get('/api/crud/offeredBy/:id', (req, res) => {
     db.readOfferedBy(req.params.id)
-      .then((record) => res.send(record))
+      .then((record) => {
+        console.log(record);
+        res.send(record);
+      })
       .catch((err) => {
         console.error(err);
         res.sendStatus(404);
@@ -18,7 +21,7 @@ function offeredBy(app, db) {
     description: string
   }
   */
-  app.post('/api/offeredBy', (req, res) => {
+  app.post('/api/crud/offeredBy', (req, res) => {
     db.createOfferedBy(req.body)
       .then((id) => res.status(201).json(id))
       .catch((err) => {
@@ -28,7 +31,7 @@ function offeredBy(app, db) {
   });
 
   // update offeredBy
-  app.put('/api/offeredBy/:id', (req, res) => {
+  app.put('/api/crud/offeredBy/:id', (req, res) => {
     db.updateOfferedBy(req.params.id, req.body)
       .then(() => res.sendStatus(204))
       .catch((err) => {
@@ -41,7 +44,7 @@ function offeredBy(app, db) {
   });
 
   // delete offeredBy
-  app.delete('/api/offeredBy/:id', (req, res) => {
+  app.delete('/api/crud/offeredBy/:id', (req, res) => {
     db.deleteOfferedBy(req.params.id)
       .then(() => res.sendStatus(204))
       .catch((err) => {
