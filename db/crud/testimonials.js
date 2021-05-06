@@ -7,7 +7,7 @@ function testimonials(model) {
   return {
     createTestimonial: ({ name, text }) => create(model, { name, testimonialText: text }),
     readTestimonial: (id) => read(model, id),
-    updateTestimonial: (id, testimonial) => update(model, id, testimonial),
+    updateTestimonial: (id, { name, text }) => update(model, id, { name, testimonialText: text }),
     deleteTestimonial: (id) => del(model, id),
   };
 }
