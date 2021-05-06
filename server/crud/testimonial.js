@@ -1,13 +1,10 @@
 /* eslint-disable no-console */
+const read = require('./read');
+
 function testimonial(app, db) {
   // get testimonial by id
   app.get('/api/testimonial/:id', (req, res) => {
-    db.readTestimonial(req.params.id)
-      .then((record) => res.send(record))
-      .catch((err) => {
-        console.error(err);
-        res.sendStatus(404);
-      });
+    read(db, 'readTestimonial', req.params.id, res);
   });
 
   // create testimonial

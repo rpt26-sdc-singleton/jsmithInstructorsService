@@ -1,13 +1,10 @@
 /* eslint-disable no-console */
+const read = require('./read');
+
 function instructor(app, db) {
   // get instructor by id
   app.get('/api/instructor/:id', (req, res) => {
-    db.readInstructor(req.params.id)
-      .then((record) => res.send(record))
-      .catch((err) => {
-        console.error(err);
-        res.sendStatus(404);
-      });
+    read(db, 'readInstructor', req.params.id, res);
   });
 
   // create instructor

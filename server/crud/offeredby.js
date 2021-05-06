@@ -1,16 +1,10 @@
 /* eslint-disable no-console */
+const read = require('./read');
+
 function offeredBy(app, db) {
   // get offeredBy by id
   app.get('/api/crud/offeredBy/:id', (req, res) => {
-    db.readOfferedBy(req.params.id)
-      .then((record) => {
-        console.log(record);
-        res.send(record);
-      })
-      .catch((err) => {
-        console.error(err);
-        res.sendStatus(404);
-      });
+    read(db, 'readOfferedBy', req.params.id, res);
   });
 
   // create offeredBy
