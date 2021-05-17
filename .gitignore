@@ -26,4 +26,5 @@ dist/
 db/data/*.json
 db/data/*instructors
 db/data/offered-bys
+db/data/testimonials
 public/bundle.js
