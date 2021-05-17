@@ -24,4 +24,5 @@ coverage
 build/
 dist/
 db/data/*.json
+db/data/*instructors
 public/bundle.js
