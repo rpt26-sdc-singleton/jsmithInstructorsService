@@ -31,8 +31,6 @@ app.get('/api/offeredByAll', (req, res) => db.findAllOfferedBys((dbResponse) => 
 
 // returns the offeredBy for a course
 app.get('/api/offeredBy/:courseNumber', (req, res) => db.findOfferedBy(parseInt(req.params.courseNumber), (records) => {
-  console.log(req.path);
-  console.log(records);
   const offeredBy = records.map(({ id, name, description }) => ({
     id,
     offeredByIndex: id,
