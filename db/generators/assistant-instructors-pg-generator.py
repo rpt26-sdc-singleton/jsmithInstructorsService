@@ -1,10 +1,12 @@
 from random import randint
+from random import sample
 
 to_generate = 10000000
 
-with open('./db/data/assistant-instructors.sql', mode='w') as f:
-  print('INSERT INTO assistant_instructors (instructor_id, course_id) VALUES', file=f)
-
-with open('./db/data/assistant-instructors.sql', mode='a') as f:
-  print(',\n'.join([',\n'.join([f'({i+1}, {randint(1,to_generate+1)})' for _ in range(randint(1,4))]) for i in range(to_generate)]), file=f)
-  print(';', file=f)
+# broken into a ten part series
+for j in range(10):
+  with open(f'./db/data/assistant-instructors{j:03}.sql', mode='w') as f:
+    print('INSERT INTO assistant_instructors (instructor_id, course_id) VALUES', file=f)
+  with open(f'./db/data/assistant-instructors{j:03}.sql', mode='a') as f:
+    print(',\n'.join([',\n'.join([f'({i+1}, {j+1})' for j in sample(range(to_generate),randint(1,4))]) for i in range(j * to_generate // 10, (j + 1) * to_generate // 10)]), file=f)
+    print(';', file=f)

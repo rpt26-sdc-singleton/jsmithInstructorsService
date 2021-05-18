@@ -1,3 +1,3 @@
-CREATE TABLE assistant_instructors (
+CREATE TABLE courses (
   id integer PRIMARY KEY
 );
