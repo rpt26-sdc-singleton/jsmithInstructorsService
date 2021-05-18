@@ -24,6 +24,7 @@ coverage
 build/
 dist/
 db/data/*.json
+db/data/*.sql
 db/data/*instructors
 db/data/offered-bys
 db/data/testimonials
